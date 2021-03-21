@@ -249,7 +249,6 @@ h3,
 h4,
 h5 {
 	font-weight: bold;
-	
 	margin-bottom: 1.5rem;
 }
 
@@ -313,7 +312,6 @@ time {
 
 .post > h1.title {
 	margin-top: 1.5rem;
-	margin-bottom: 0;
 }
 
 .post > time {
@@ -359,6 +357,7 @@ main {
 	header li {
 		display: inline;
 		margin-right: 1rem;
+		margin-bottom: 3rem;
 	}
 	
 	time {
@@ -381,7 +380,7 @@ main {
 	}
 
 	main {
-		padding: 0 2rem;
+		padding: 0 0.75rem;
 	}
 
 	.github-corner {

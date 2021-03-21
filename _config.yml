@@ -2,7 +2,7 @@ site: continuoous
 url: #yoururl
 title: continuoous
 description: Simple and minimalistic jekyll blogging theme.
-googlewebfonts: Fira+Code:wght@400;500;700
+googlewebfonts: Open+Sans:wght@400;700
 twitter:
   username: #yourusername
   card: summary

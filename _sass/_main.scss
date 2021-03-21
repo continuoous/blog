@@ -151,7 +151,7 @@ html[data-theme="dark"] {
 
 body {
 	font-family: "Open Sans", sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
@@ -381,6 +381,10 @@ main {
 
 	main {
 		padding: 0 0.75rem;
+	}
+
+	 a {
+		font-size: 3.5vw;
 	}
 
 	.github-corner {

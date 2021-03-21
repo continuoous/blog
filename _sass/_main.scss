@@ -9,7 +9,7 @@
 }
 
 html {
-	font-size: 13px;
+	
 }
 
 #theme-toggle {
@@ -37,11 +37,11 @@ html[data-theme="light"] {
 	--very-light-text-color: rgb(236, 237, 238);
 	--light-text-color: #bbb;
 	--medium-text-color: #555;
-	--main-text-color: #333;
+	--main-text-color: #1d1d1f;
 	--dark-text-color: #111;
-	--link-color: #df0505;
+	--link-color: #087099;
 
-	background-color: #f2f2f2;
+	background-color: #fafbfc;
 
 	#theme-toggle div {
 		position: relative;
@@ -95,11 +95,11 @@ html[data-theme="dark"] {
 	--very-light-text-color: #333;
 	--light-text-color: #444;
 	--medium-text-color: #888;
-	--main-text-color: #ddd;
+	--main-text-color: #ccc;
 	--dark-text-color: #eee;
-	--link-color: #df0505;
+	--link-color: #8AB4F8;
 
-	background-color: #0d1117;
+	background-color: #202124;
 
 	#theme-toggle div {
 		position: relative;
@@ -151,6 +151,7 @@ html[data-theme="dark"] {
 
 body {
 	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
 	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
@@ -234,6 +235,7 @@ blockquote {
 }
 
 h1 {
+	font-size: 20px;
 	color: var(--dark-text-color);
 	text-transform: uppercase;
 }
@@ -248,7 +250,7 @@ h3,
 h4,
 h5 {
 	font-weight: bold;
-	font-size: 1rem;
+	
 	margin-bottom: 1.5rem;
 }
 

@@ -4,25 +4,29 @@ layout: default
 
 <section id="intro">
     <div class="flex-row-between">
-        <h1>CONTINUOOUS</h1>
+        <h1>Hi</h1>
         <button id="theme-toggle" onclick="modeSwitcher()">
             <div></div>
         </button>
     </div>
+    
     <p>Maecenas euismod, ante eu mollis tempus, justo tellus tempus dui, non suscipit tellus diam vel ipsum. Phasellus
         euismod auctor <a href="#">condimentum</a>. Aenean at ex dolor. Praesent eget venenatis erat, sit amet cursus
         nulla. Vestibulum
         rutrum, turpis id aliquam sagittis.
     </p>
+
+    <section class="posts">
+        <h3>WRITING</h3>
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
+            {% endfor %}
+        </ul>
+    </section>
+    
+
 </section>
 
-<section class="posts">
-    <h3>WRITING</h3>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></li>
-        {% endfor %}
-    </ul>
-</section>

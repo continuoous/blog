@@ -8,10 +8,6 @@
 	padding: 0;
 }
 
-html {
-	
-}
-
 #theme-toggle {
 	opacity: 0.65;
 	position: relative;
@@ -150,10 +146,10 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: 'Roboto Slab', serif;
-	Font-Size: 17px;
+	font-family: 'Merriweather', serif;
+	Font-Size: 16px;
 	text-rendering: optimizeLegibility;
-	line-height: 1.75;
+	line-height: 1.875;
 	color: var(--main-text-color);
 }
 
@@ -234,14 +230,16 @@ blockquote {
 }
 
 h1 {
-	font-family: 'Roboto Condensed', sans-serif;
-	Font-Size: 34px;
+	font-family: 'Merriweather Sans', sans-serif;
+	Font-Size: 30px;
 	color: var(--dark-text-color);
 	text-transform: uppercase;
 }
 
 h3 {
 	color: var(--medium-text-color);
+	font-family: 'Merriweather', serif;
+	Font-Size: 18px;
 }
 
 h1,

@@ -103,19 +103,19 @@ But, this function holds true only if `n`, `e`, `d` and `m` satisfy four conditi
 
 Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
 
-1. `n` should be `p · q` where both `p` and `q` are prime numbers.
+`n` should be `p · q` where both `p` and `q` are prime numbers.
     - `n=33` satisfies the condition because
         - `33=3·11`, where both `3` and `11` are primes
 
-2. `e` must be `>1` and `<(p-1)·(q-1)` and a **co-prime** of `(p-1)·(q-1)` 
+`e` must be `>1` and `<(p-1)·(q-1)` and a **co-prime** of `(p-1)·(q-1)` 
     - `e=7` satisfies the condition because
         - `(p-1)·(q-1) = (3-1)·(11-1) = 20`
         - `1<7<20`
         - `7` and `20` are co-primes since their greatest common divisor is `1`
 
-3. `d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
+`d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
     - `d=3` satisfies the condition because
         - `(3·7)   mod   ((3-1)·(11-1)) = 21   mod   20 = 1`
 
-4. `m` must be less than `n`
+`m` must be less than `n`
     - `m=31` satisfies the condition because it is less than `33`

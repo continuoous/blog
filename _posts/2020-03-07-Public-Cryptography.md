@@ -38,11 +38,11 @@ ___
 
 ### Before you read further, this note is Important
 
-* Modulus is the **remainder** after a number is divided by a divisor.
-* Since 11 = 2 · 5 + 1,  you can write 
-  * 11 mod (5) = 1
-  * 11 mod (2) = 1 
-* because **1** is the remainder resulting from 11÷5 or 11÷2
+    * Modulus is the **remainder** after a number is divided by a divisor.
+    * Since 11 = 2 · 5 + 1,  you can write 
+      * 11 mod (5) = 1
+      * 11 mod (2) = 1 
+    * because **1** is the remainder resulting from 11÷5 or 11÷2
 
 
 .
@@ -116,6 +116,6 @@ Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
 3. `d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
   - `d=3` satisfies the condition because
     - `(3·7)   mod   ((3-1)·(11-1)) = 21   mod   20 = 1`
-    
+
 4. `m` must be less than `n`
   - `m=31` satisfies the condition because it is less than `33`

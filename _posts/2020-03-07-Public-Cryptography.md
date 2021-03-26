@@ -74,22 +74,19 @@ ___
 .
 
 ### Encryption
-* The message `m` is encrypted with the function: 
+
+#### The message `m` is encrypted with the function: 
     * `m^e mod (n) `
     * Its the same as the **remainder **of `31^7/33` which is `4`
     * So, `c=4`
 
-.
-
-___
-
-.
 
 >> `31^7 = 27512614111 = 833715579 · 33 + 4 `
 
 
 ### Decryption
-* The message `c` is decrypted with the function: 
+
+#### The message `c` is decrypted with the function: 
     * `c^d mod(n) `
     * Its the same as the **remainder **of `4^3/33` which is `31`
     * Therefore, `m=31`
@@ -112,7 +109,7 @@ But, this function holds true only if `n`, `e`, `d` and `m` satisfy four conditi
 
 Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
 
-- `n` should be `p · q` where both `p` and `q` are prime numbers.
+#### `n` should be `p · q` where both `p` and `q` are prime numbers.
     
     - `n=33` satisfies the condition because
         
@@ -120,7 +117,7 @@ Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
 
 ___
 
-- `e` must be `>1` and `<(p-1)·(q-1)` and a **co-prime** of `(p-1)·(q-1)` 
+#### `e` must be `>1` and `<(p-1)·(q-1)` and a **co-prime** of `(p-1)·(q-1)` 
     
     - `e=7` satisfies the condition because
         
@@ -132,7 +129,7 @@ ___
 
 ___
 
-- `d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
+#### `d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
     
     - `d=3` satisfies the condition because
         
@@ -140,7 +137,7 @@ ___
 
 ___
 
-- `m` must be less than `n`
+#### `m` must be less than `n`
     
     - `m=31` satisfies the condition because it is less than `33`
 

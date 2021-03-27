@@ -318,7 +318,9 @@ header ul {
 .projects li time {
 	padding-left: 1rem;
 	white-space: nowrap;
-	font-variant-numeric: tabular-nums;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-transform: uppercase;
+	Font-weight: 200;
 }
 
 time {

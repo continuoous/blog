@@ -10,11 +10,7 @@ Our world would be a very different place if tech giants and banks couldn't guar
 
 **RSA algorithm** is the workhorse technique which enables this secret keeping. We can understand **how** this *public cryptography* works with elementary number theory. Understanding **why** it works is a whole another topic.
 
-.
-
-___
-
-.
+<br/><br/>
 
 
 ## An analogy
@@ -27,13 +23,7 @@ In short, the Bank publishes a *public key* to **encrypt ** messages and will ke
 
 **RSA algorithm** works similar to this analogy.
 
-
-.
-
-___
-
-.
-
+<br/><br/>
 
 
 ### Before you read further, this note is Important
@@ -44,14 +34,7 @@ ___
   * 11 mod (2) = 1 
 * because **1** is the remainder resulting from 11÷5 or 11÷2
 
-
-.
-
-___
-
-.
-
-
+<br/><br/>
 
 ## Encryption & Decryption with an example
 
@@ -68,14 +51,11 @@ If our *message* is `m` and the *encrypted message* is `c`. When `c` is decrypte
     * `d=3`
     * `m=31`
 
-.
-___
-
-.
+<br/><br/>
 
 ### Encryption
 
-#### The message `m` is encrypted with the function: 
+- The message `m` is encrypted with the function: 
     * `m^e mod (n) `
     * Its the same as the **remainder **of `31^7/33` which is `4`
     * So, `c=4`
@@ -83,20 +63,18 @@ ___
 
 >> `31^7 = 27512614111 = 833715579 · 33 + 4 `
 
+<br/><br/>
 
 ### Decryption
 
-#### The message `c` is decrypted with the function: 
+- The message `c` is decrypted with the function: 
     * `c^d mod(n) `
     * Its the same as the **remainder **of `4^3/33` which is `31`
     * Therefore, `m=31`
 .
 >> `4^3 = 64 = 1 · 33 + 31 `
 
-.
-___
-
-.
+<br/><br/>
 
 
 ## Rules of RSA algorithm
@@ -108,38 +86,36 @@ Above, we encrypted the message `m` to `c` and then decrypted `c` back to the or
 But, this function holds true only if `n`, `e`, `d` and `m` satisfy four conditions.
 
 Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
+<br/><br/>
 
 #### `n` should be `p · q` where both `p` and `q` are prime numbers.
     
-    - `n=33` satisfies the condition because
-        
-        - `33=3·11`, where both `3` and `11` are primes
+  - `n=33` satisfies the condition because
+      
+      - `33=3·11`, where both `3` and `11` are primes
 
-___
+<br/><br/>
 
 #### `e` must be `>1` and `<(p-1)·(q-1)` and a **co-prime** of `(p-1)·(q-1)` 
     
-    - `e=7` satisfies the condition because
-        
-        - `(p-1)·(q-1) = (3-1)·(11-1) = 20`
-        
-        - `1<7<20`
-        
-        - `7` and `20` are co-primes since their greatest common divisor is `1`
+  - `e=7` satisfies the condition because
+      
+      - `(p-1)·(q-1) = (3-1)·(11-1) = 20`
+      
+      - `1<7<20`
+      
+      - `7` and `20` are co-primes since their greatest common divisor is `1`
 
-___
+<br/><br/>
 
 #### `d` must be such that `(d·e)   mod ((p-1)·(q-1)) = 1`
     
-    - `d=3` satisfies the condition because
-        
-        - `(3·7)   mod   ((3-1)·(11-1)) = 21   mod   20 = 1`
+  - `d=3` satisfies the condition because
+      
+      - `(3·7)   mod   ((3-1)·(11-1)) = 21   mod   20 = 1`
 
-___
+<br/><br/>
 
 #### `m` must be less than `n`
     
-    - `m=31` satisfies the condition because it is less than `33`
-
-___
-
+  - `m=31` satisfies the condition because it is less than `33`

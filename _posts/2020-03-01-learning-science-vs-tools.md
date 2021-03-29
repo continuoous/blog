@@ -17,11 +17,7 @@ It’s not to say that my aim or yours should be to become a data science engine
 
 On one extreme, the dreadful god forsaken year that 2020 was, showed us getting data analytics right can be a matter of life and death. On the other end of the spectrum, novel applications of data science might tickle a brain curious not only about how it all works but also about why it works at all and when might it all go wrong.
 
-.
-
-___
-
-.
+<br/><br/>
 
 
 ## But why spreadsheets? Familiarity is why.
@@ -32,11 +28,7 @@ But if you have invested the past decade or more perfecting spreadsheet skill, t
 
 Despite all its shortcomings, spreadsheets are the most ubiquitous and familiar analytics platform. It doesn’t hurt that excel is a very visual analytics tool needing very little or no code. Through tedious formulas and admittedly inefficient implementations, Excel will lay bare not only how an algorithm functions, but also which parameters affect performance and when things don’t work. It’s the perfect DIY platform to get your hands dirty.
 
-.
-
-___
-
-.
+<br/><br/>
 
 
 ## What if I’ll never need to write a line of code?

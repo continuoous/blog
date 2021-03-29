@@ -38,7 +38,13 @@ html[data-theme="light"] {
 	--link-color: #1A73EB;
 	code,
 pre {
-	background: #FEF4E8;
+	border-color: #a8a093;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+h2 {
+	color: var(--very-light-text-color);
 }
 
 	background-color: #FEF1E0;
@@ -102,6 +108,9 @@ html[data-theme="dark"] {
 pre {
 	background: #333;
 }
+h2 {
+	color: var(--link-color);
+}
 
 	background-color: #202124;
 
@@ -161,10 +170,18 @@ body {
 	color: var(--main-text-color);
 }
 
+.MathJax {
+	color:var(--dark-text-color);
+}
+
 a {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 500px;
+	font-size: 20px;
 	color: var(--link-color);
 	text-decoration-skip-ink: auto;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 p {
@@ -233,45 +250,47 @@ blockquote {
 	padding-left: 1rem;
 }
 
+
+
 h1 {
-	font-family: 'Merriweather Sans', sans-serif;
-	Font-Size: 30px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	Font-weight:500;
+	Font-Size: 42px;
 	color: var(--dark-text-color);
-	text-transform: uppercase;
 	margin: 0.5rem 0;
 }
 
 h2 {
-	color: var(--dark-text-color);
-	font-family: 'Merriweather', serif;
-	Font-Size: 24px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:500;
 	margin: 0.5rem 0;
+	font-Size: 36px;
+	text-rendering: optimizeLegibility;
+	text-transform:unset;
 }
 
 h3 {
-	
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:400;
+	font-Size: 24px;
 	color: var(--dark-text-color);
-	font-family: 'Merriweather', sans-serif;
-	text-transform: uppercase;
-	Font-Size: 18px;
 	font-weight: 300;
 	margin: 0.5rem 0;
 }
 
 h4 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:500;
+	font-Size: 18px;
 	color: var(--dark-text-color);
-	font-family: 'Merriweather', serif;
-	Font-Size: 12px;
-	font-weight: 300;
-	font-style: italic;
 	margin: 0.5rem 0;
 }
 
 h5 {
-	font-family: 'Merriweather', serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight:500;
+	font-Size: 12px;
 	color: var(--dark-text-color);
-	Font-Size: 10px;
-	Font-weight: 300;
 	margin: 0.5rem 0;
 }
 
@@ -281,7 +300,16 @@ section h1:first-child {
 
 strong,
 b {
-	font-weight: bold;
+	font-weight: 700;
+	font-family: 'Merriweather', sans-serif;
+	color: var (--light-text-color);
+}
+
+em,
+b {
+	font-weight: 400;
+	font-family: 'Merriweather', serif;
+	color: var (--light-text-color);
 }
 
 .photos ul {
@@ -306,11 +334,16 @@ header ul {
 	list-style: none;
 }
 
+li {
+	padding-left: 30px;
+}
+
 .posts li {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
+	padding-left: 25px;
 }
 
 .posts li a,
@@ -326,14 +359,16 @@ header ul {
 .projects li time {
 	padding-left: 1rem;
 	white-space: nowrap;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 500;
 	text-transform: uppercase;
 	Font-weight: 200;
 }
 
 time {
-	font-family: 'Merriweather Sans', sans-serif;
-	color: var(--light-text-color);
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 500;
+	color:var(--dark-text-color);
 }
 
 .post > h1.title {
@@ -341,7 +376,8 @@ time {
 }
 
 .post > time {
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 500;
 	margin-bottom: 2rem;
 }
 
@@ -411,7 +447,11 @@ main {
 	}
 
 	 a {
-		font-size: 4.5vw;
+		font-size: 6vw;
+	}
+
+	h2 {
+		font-size: 6vw;
 	}
 
 	.github-corner {

@@ -6,32 +6,37 @@ summary: About why data science  can be learnt through spreadsheets
 tags: [Excel, Datascience]
 ---
 
-Our world would be a very different place if tech giants and banks couldn't guard passwords. If you think about it, **keeping secrets** is fundamental to how we organize societies.
+Our world would be a different place if tech giants and banks couldn't guard passwords. If you think about it, **keeping secrets** is fundamental to how we organize societies.
 
 **RSA algorithm** is the workhorse technique which enables this secret keeping. We can understand **how** this *public cryptography* works with elementary number theory. Understanding **why** it works is a whole another topic.
 
 <br/><br/>
 
+<details>
+<summary>An analogy</summary>
+<p>
 
-## An analogy
-
-One way to send a secret (a password) is to mail a sealed envelope to your **banker**. This is not secure because the envelope can be *sealed* and *unsealed* by anybody with access to it (like the mailman).
+- One way to send a secret (a password) is to mail a sealed envelope to your banker. 
+    - This is not secure because the envelope can be *sealed* and *unsealed* by anybody with access to it (like the mailman).
 
 Instead, your banker builds a **public mailbox** available to the entire world. Anybody can drop envelopes into it. But, only the banker has a **private key** to open this **public mailbox**.
 
-In short, the Bank publishes a *public key* to **encrypt ** messages and will keep secret the *private key* to **decrypt ** those messages.
+In short, the Bank publishes a *public key* to **encrypt** messages and will keep secret the *private key* to **decrypt** those messages.
 
 **RSA algorithm** works similar to this analogy.
+</p>
+</details>
+
+
 
 <br/><br/>
 
-
 ### Before you read further, this note is Important
 
-* Modulus is the **remainder** after a number is divided by a divisor.
-* Since 11 = 2 · 5 + 1,  you can write 
-  * 11 mod (5) = 1
-  * 11 mod (2) = 1 
+- Modulus is the **remainder** after a number is divided by a divisor.
+    - Since 11 = 2 · 5 + 1,  you can write 
+* 11 mod (5) = 1
+* 11 mod (2) = 1 
 * because **1** is the remainder resulting from 11÷5 or 11÷2
 
 <br/><br/>
@@ -119,3 +124,8 @@ Lets verify if `n=33 , e=7 , d=3 and  m=31`  satisfy those conditions:
 #### `m` must be less than `n`
     
   - `m=31` satisfies the condition because it is less than `33`
+
+  ## collapsible markdown?
+
+<details>
+<summary>CLICK ME</summary>

@@ -37,15 +37,15 @@ html[data-theme="light"] {
 	--dark-text-color: #111;
 	--link-color: #1A73EB;
 	code,
-pre {
-	border-color: #a8a093;
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 5px;
-}
-h2 {
-	color: var(--very-light-text-color);
-}
+	pre {
+		border-color: #a8a093;
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 5px;
+		}
+	h2 {
+		color: var(--very-light-text-color);
+	}
 
 	background-color: #FEF1E0;
 
@@ -105,12 +105,12 @@ html[data-theme="dark"] {
 	--dark-text-color: #eee;
 	--link-color: #8AB4F8;
 	code,
-pre {
-	background: #333;
-}
-h2 {
-	color: var(--link-color);
-}
+	pre {
+		background: #333;
+	}
+	h2 {
+		color: var(--link-color);
+	}
 
 	background-color: #202124;
 

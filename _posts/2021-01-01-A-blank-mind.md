@@ -8,6 +8,12 @@ tags: [Life]
 
 #### Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty.
 
+# This is header one
+## this is header two
+### this is header three
+#### this is what header four looks like
+##### finally, this is header five
+
 A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
 
 Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.

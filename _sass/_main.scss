@@ -28,6 +28,11 @@
 	transform: scale(0.8);
 }
 
+html{
+	--main-font: 'Lato', sans-serif;
+	--alt-font: 'Source Sans Pro', sans-serif;
+}
+
 html,
 html[data-theme="light"] {
 	--very-light-text-color:#990F3D;
@@ -36,6 +41,7 @@ html[data-theme="light"] {
 	--main-text-color: #262A33;
 	--dark-text-color: #990F3D;
 	--link-color: #1A73EB;
+
 	code,
 	pre {
 		border-color: #a8a093;
@@ -43,9 +49,6 @@ html[data-theme="light"] {
 		border-width: 1px;
 		border-radius: 5px;
 		}
-	h2 {
-		color: var(--very-light-text-color);
-	}
 
 	background-color: #FFF1E5;
 
@@ -108,9 +111,6 @@ html[data-theme="dark"] {
 	pre {
 		background: #333;
 	}
-	h2 {
-		color: var(--link-color);
-	}
 
 	background-color: #202124;
 
@@ -162,39 +162,78 @@ html[data-theme="dark"] {
 	}
 }
 
-body {
-	font-family: 'Lato', sans-serif;
-	Font-Size: 18px;
-	text-rendering: optimizeLegibility;
-	line-height: 1.875;
+ /* font-family */
+
+body, a, p, time, strong, b, em {
+	font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: var(--alt-font);
+}
+
+ /* font-size */
+
+h1 {Font-Size: 6vmin;}
+h2 {Font-Size: 5vmin;}
+h3 {Font-Size: 4vmin;}
+h4 {Font-Size: 3vmax;}
+h5 {Font-Size: 2vmax;}
+body,a,p, .MathJax {
+	Font-Size: 2vmax;
+}
+
+/* font-weight */
+
+h1, h2, h3, h4, h5 {
+	Font-weight: 900;
+}
+
+body, a, p, .MathJax, header a.active {
+	Font-weight: 500;
+}
+
+/* font-color */
+
+.MathJax {color:var(--dark-text-color);}
+a {color: var(--link-color);}
+
+h1, body {
 	color: var(--main-text-color);
 }
 
-.MathJax {
-	color:var(--dark-text-color);
+h2, h3, h4, h5, hr {
+	color:  var(--medium-text-color);
 }
+
+
+
+/* line-height and margins */
+
+h1, h2, h3, h4, h5 {
+	line-height: 1;
+	margin-bottom: 1rem;
+}
+
+body, p, .meta, code {
+	line-height: 1.65;
+	margin-bottom: 2rem;
+}
+
+
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+
+
 
 a {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 500px;
-	font-size: 20px;
-	color: var(--link-color);
 	text-decoration-skip-ink: auto;
 	text-decoration: none;
-
 }
 
-p {
-	margin: 0.5rem 0;
-}
-
-.meta {
-	margin: 2rem 0;
-}
-
-code {
-	padding: 0.2rem;
-}
 
 pre code {
 	border: none;
@@ -210,7 +249,7 @@ img {
 }
 
 hr {
-	background: var(--medium-text-color);
+
 	height: 1px;
 	border: 0;
 }
@@ -231,14 +270,7 @@ header li {
 	margin-right: 2rem;
 }
 
-header a.active {
-	font-weight: 400;
-}
-
-header,
-section {
-	padding: 1rem 0;
-}
+header, section {padding: 1rem 0;}
 
 section {
 	margin-top: 5.5rem;
@@ -251,46 +283,11 @@ blockquote {
 }
 
 
-
-h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	Font-weight:900;
-	Font-Size: 32px;
-	color: var(--main-text-color);
-	margin: 0.5rem 0;
-}
-
 h2 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:700;
-	margin: 0.5rem 0;
-	font-Size: 28px;
+
+
 	text-rendering: optimizeLegibility;
 	text-transform:unset;
-}
-
-h3 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:700;
-	font-Size: 20px;
-	color: var(--medium-text-color);	
-	margin: 0.5rem 0;
-}
-
-h4 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:700;
-	font-Size: 18px;
-	color: var(--medium-text-color);
-	margin: 0.5rem 0;
-}
-
-h5 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:700;
-	font-Size: 12px;
-	color: var(--dark-text-color);
-	margin: 0.5rem 0;
 }
 
 section h1:first-child {
@@ -299,15 +296,12 @@ section h1:first-child {
 
 strong,
 b {
-	font-weight: 900;
-	font-family: 'Lato', sans-serif;
 	color: var (--light-text-color);
 }
 
 em,
 b {
 	font-weight: 400;
-	font-family: 'Lato', sans-serif;
 	color: var (--light-text-color);
 }
 
@@ -324,9 +318,7 @@ b {
 	margin-bottom: 0.5rem;
 }
 
-.posts > h3 {
-	font-weight: 500;
-}
+
 
 .posts ul,
 header ul {
@@ -361,11 +353,10 @@ li {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
-	Font-weight: 200;
 }
 
 time {
-	font-family: 'Source Sans Pro', sans-serif;
+
 	font-weight: 500;
 	color:var(--dark-text-color);
 }
@@ -375,21 +366,17 @@ time {
 }
 
 .post > time {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: var(--alt-font);
 	font-weight: 500;
 	margin-bottom: 2rem;
 }
 
 main {
 	display: flex;
-	max-width: 47rem;
+	max-width: 75vw;
 	margin: -5rem auto 0;
 	padding: 2.4rem 2rem;
 	flex-direction: column;
-}
-
-.github-corner:hover .octo-arm {
-	animation: octocat-wave 560ms ease-in-out;
 }
 
 @keyframes octocat-wave {
@@ -415,7 +402,16 @@ main {
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 45rem) {
+@media screen and (max-width: 800px) {
+	
+	main {
+		display: flex;
+		max-width: 95vw;
+		margin: -5rem auto 0;
+		padding: 2.4rem 2rem;
+		flex-direction: column;
+	}
+	
 	header li {
 		display: inline;
 		margin-right: 1rem;
@@ -467,3 +463,4 @@ section {
 figcaption {
 	font-size: smaller;
 }
+  

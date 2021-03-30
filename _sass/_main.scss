@@ -30,11 +30,11 @@
 
 html,
 html[data-theme="light"] {
-	--very-light-text-color:#A0425B;
+	--very-light-text-color:#990F3D;
 	--light-text-color: #bbb;
-	--medium-text-color: #A0425B;
-	--main-text-color: #363330;
-	--dark-text-color: #111;
+	--medium-text-color: #0D7680;
+	--main-text-color: #262A33;
+	--dark-text-color: #990F3D;
 	--link-color: #1A73EB;
 	code,
 	pre {
@@ -47,7 +47,7 @@ html[data-theme="light"] {
 		color: var(--very-light-text-color);
 	}
 
-	background-color: #FEF1E0;
+	background-color: #FFF1E5;
 
 	#theme-toggle div {
 		position: relative;
@@ -163,7 +163,7 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	Font-Size: 18px;
 	text-rendering: optimizeLegibility;
 	line-height: 1.875;
@@ -175,13 +175,13 @@ body {
 }
 
 a {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500px;
 	font-size: 20px;
 	color: var(--link-color);
 	text-decoration-skip-ink: auto;
 	text-decoration: none;
-	text-transform: uppercase;
+
 }
 
 p {
@@ -253,42 +253,41 @@ blockquote {
 
 
 h1 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	Font-weight:500;
-	Font-Size: 42px;
-	color: var(--dark-text-color);
+	font-family: 'Source Sans Pro', sans-serif;
+	Font-weight:900;
+	Font-Size: 32px;
+	color: var(--main-text-color);
 	margin: 0.5rem 0;
 }
 
 h2 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight:500;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
 	margin: 0.5rem 0;
-	font-Size: 36px;
+	font-Size: 28px;
 	text-rendering: optimizeLegibility;
 	text-transform:unset;
 }
 
 h3 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight:400;
-	font-Size: 24px;
-	color: var(--dark-text-color);
-	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
+	font-Size: 20px;
+	color: var(--medium-text-color);	
 	margin: 0.5rem 0;
 }
 
 h4 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight:500;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
 	font-Size: 18px;
-	color: var(--dark-text-color);
+	color: var(--medium-text-color);
 	margin: 0.5rem 0;
 }
 
 h5 {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight:500;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:700;
 	font-Size: 12px;
 	color: var(--dark-text-color);
 	margin: 0.5rem 0;
@@ -300,15 +299,15 @@ section h1:first-child {
 
 strong,
 b {
-	font-weight: 700;
-	font-family: 'Merriweather', sans-serif;
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
 	color: var (--light-text-color);
 }
 
 em,
 b {
 	font-weight: 400;
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	color: var (--light-text-color);
 }
 
@@ -359,14 +358,14 @@ li {
 .projects li time {
 	padding-left: 1rem;
 	white-space: nowrap;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 	text-transform: uppercase;
 	Font-weight: 200;
 }
 
 time {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 	color:var(--dark-text-color);
 }
@@ -376,7 +375,7 @@ time {
 }
 
 .post > time {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 500;
 	margin-bottom: 2rem;
 }

@@ -28,10 +28,7 @@
 	transform: scale(0.8);
 }
 
-html{
-	--main-font: 'Lato', sans-serif;
-	--alt-font: 'Source Sans Pro', sans-serif;
-}
+
 
 html,
 html[data-theme="light"] {
@@ -42,13 +39,7 @@ html[data-theme="light"] {
 	--dark-text-color: #990F3D;
 	--link-color: #1A73EB;
 
-	code,
-	pre {
-		border-color: #a8a093;
-		border-style: solid;
-		border-width: 1px;
-		border-radius: 5px;
-		}
+
 
 	background-color: #FFF1E5;
 
@@ -107,10 +98,7 @@ html[data-theme="dark"] {
 	--main-text-color: #ccc;
 	--dark-text-color: #eee;
 	--link-color: #8AB4F8;
-	code,
-	pre {
-		background: #333;
-	}
+
 
 	background-color: #202124;
 
@@ -162,9 +150,39 @@ html[data-theme="dark"] {
 	}
 }
 
- /* font-family */
+html{
+	--main-font: 'Open Sans', sans-serif;
+	--alt-font: 'Open Sans', sans-serif, 'Roboto Slab', serif;
+	--third-font: 'Roboto Slab', serif, 'Cutive Mono', monospace;
+	code,
+	pre {
+		border-color:var(--light-text-color);
+		border-style: solid;
+		border-width: 1px;
+		border-radius: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: var(--third-font);
+		Font-weight: 400;
+		}
+}
 
-body, a, p, time, strong, b, em {
+main {
+	display: flex;
+	max-width: 60vw;
+	margin: -5rem auto 0;
+	padding: 2.4rem 2rem;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, .post > time, .posts li time, .projects li time, body, a, p, time, strong, b, em {
+	text-rendering: optimizeLegibility;
+	text-decoration: none;
+}
+
+/* font-family */
+
+body, p, time, strong, b, em {
 	font-family: var(--main-font);
 }
 
@@ -172,67 +190,73 @@ h1, h2, h3, h4, h5 {
 	font-family: var(--alt-font);
 }
 
+a, .post > time, .posts li time, .projects li time {
+	font-family: var(--third-font);
+}
+
+blockquote > p {
+	font-family: var(--third-font);
+	border-left: 5px solid var(--very-light-text-color);
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
  /* font-size */
 
-h1 {Font-Size: 6vmin;}
-h2 {Font-Size: 5vmin;}
-h3 {Font-Size: 4vmin;}
-h4 {Font-Size: 3vmax;}
-h5 {Font-Size: 2vmax;}
-body,a,p, .MathJax {
-	Font-Size: 2vmax;
+h1 {Font-Size: 5.7vw;}
+h2 {Font-Size: 4.0vw;}
+h3 {Font-Size: 3.5vmax;}
+h4 {Font-Size: 3.0vmax;}
+h5 {Font-Size: 2.5vmax;}
+.MathJax, time, .post > time {Font-Size: 1.5vmax;}
+body,p, a {
+	Font-Size: 2.5vmax;
 }
 
 /* font-weight */
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, strong, b {
 	Font-weight: 900;
 }
 
-body, a, p, .MathJax, header a.active {
-	Font-weight: 500;
+body, a, p, .MathJax, header a.active, time, .post > time, em {
+	Font-weight: 400;
 }
 
 /* font-color */
 
-.MathJax {color:var(--dark-text-color);}
-a {color: var(--link-color);}
+.MathJax, time {
+	color:var(--dark-text-color);
+}
 
-h1, body {
+h1, body, h2, h3, h4, h5, hr, a  {
 	color: var(--main-text-color);
 }
 
-h2, h3, h4, h5, hr {
-	color:  var(--medium-text-color);
-}
 
+strong, b, em {
+	color: var (--light-text-color);
+}
 
 
 /* line-height and margins */
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, .post > h1.title {
 	line-height: 1;
 	margin-bottom: 1rem;
+	margin-top: 3rem;
 }
 
-body, p, .meta, code {
-	line-height: 1.65;
-	margin-bottom: 2rem;
-}
-
-
-
-body {
-	text-rendering: optimizeLegibility;
+body, p, .meta, code, .post > time {
+	line-height: 1.5;
+	margin-bottom: 1.5rem;
 }
 
 
 
 
-a {
-	text-decoration-skip-ink: auto;
-	text-decoration: none;
-}
+
+
 
 
 pre code {
@@ -249,7 +273,6 @@ img {
 }
 
 hr {
-
 	height: 1px;
 	border: 0;
 }
@@ -260,9 +283,6 @@ header {
 	position: relative;
 }
 
-header a {
-	text-decoration: none;
-}
 
 header li {
 	margin-bottom: 0.2rem;
@@ -276,33 +296,8 @@ section {
 	margin-top: 5.5rem;
 }
 
-blockquote {
-	font-style: italic;
-	border-left: 5px solid var(--very-light-text-color);
-	padding-left: 1rem;
-}
-
-
-h2 {
-
-
-	text-rendering: optimizeLegibility;
-	text-transform:unset;
-}
-
 section h1:first-child {
 	margin-top: 0;
-}
-
-strong,
-b {
-	color: var (--light-text-color);
-}
-
-em,
-b {
-	font-weight: 400;
-	color: var (--light-text-color);
 }
 
 .photos ul {
@@ -317,8 +312,6 @@ b {
 .project picture {
 	margin-bottom: 0.5rem;
 }
-
-
 
 .posts ul,
 header ul {
@@ -343,58 +336,10 @@ li {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	text-decoration: none;
+
 }
 
-.posts li time,
-.projects li time {
-	padding-left: 1rem;
-	white-space: nowrap;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 500;
-	text-transform: uppercase;
-}
 
-time {
-
-	font-weight: 500;
-	color:var(--dark-text-color);
-}
-
-.post > h1.title {
-	margin-top: 1.5rem;
-}
-
-.post > time {
-	font-family: var(--alt-font);
-	font-weight: 500;
-	margin-bottom: 2rem;
-}
-
-main {
-	display: flex;
-	max-width: 75vw;
-	margin: -5rem auto 0;
-	padding: 2.4rem 2rem;
-	flex-direction: column;
-}
-
-@keyframes octocat-wave {
-	0%,
-	100% {
-		transform: rotate(0);
-	}
-
-	20%,
-	60% {
-		transform: rotate(-25deg);
-	}
-
-	40%,
-	80% {
-		transform: rotate(10deg);
-	}
-}
 
 .flex-row-between {
 	display: flex;
@@ -402,13 +347,13 @@ main {
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	
 	main {
 		display: flex;
-		max-width: 95vw;
-		margin: -5rem auto 0;
-		padding: 2.4rem 2rem;
+		max-width: 100vw;
+		margin: 0;
+		padding: 0.5rem 0.5rem;
 		flex-direction: column;
 	}
 	
@@ -437,17 +382,8 @@ main {
 		margin-top: 0.5rem;
 	}
 
-	main {
-		padding: 0 1.0rem;
-	}
 
-	 a {
-		font-size: 6vw;
-	}
 
-	h2 {
-		font-size: 6vw;
-	}
 
 	.github-corner {
 		display: none;
@@ -463,4 +399,3 @@ section {
 figcaption {
 	font-size: smaller;
 }
-  

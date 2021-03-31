@@ -10,7 +10,6 @@ Our world would be a different place if tech giants and banks couldn't guard pas
 
 **RSA algorithm** is the workhorse technique which enables this secret keeping. We can understand **how** this public cryptography works with elementary number theory. Understanding **why** it works is a whole another topic.
 
-<br/><br/>
 
 ## An Analogy
 
@@ -22,7 +21,6 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
 
 **RSA algorithm** works similar to this analogy.
 
-<br/><br/>
 
 ## Before you read further, this note is Important
 
@@ -31,7 +29,6 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
 - Since $$1$$ is the remainder resulting from $$ \cfrac{11}{5} $$ or $$ \cfrac{11}{2} $$,  you can write 
     - $$11\bmod 5 \equiv 1$$ or  $$11\bmod 2 \equiv 1$$
 
-<br/><br/>
 
 ## Encryption & Decryption with an example
 
@@ -60,7 +57,6 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
     * Its the same as the **remainder** of $$ \cfrac {4^3} {33} $$ which is $$31$$
     * Therefore, `m` = $$31$$
 
-<br/><br/>
 
 
 ## Rules of RSA algorithm
@@ -72,7 +68,6 @@ $$  (m^e \bmod n)^ d \bmod n = m $$
 But, this function holds true only if `n`, `e`, `d` and `m` satisfy four conditions.
 
 Lets verify if `n` = 33 , `e` = 7 , `d` = 3 and  `m` = 31  satisfy those conditions:
-<br/><br/>
 
 1. `n` should be $$ p \times q$$ where both `p` and `q` are prime numbers.
   - `n` = 33 satisfies the condition because

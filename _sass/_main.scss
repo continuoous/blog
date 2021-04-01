@@ -147,8 +147,9 @@ html[data-theme="dark"] {
 
 html{
 	--main-font: 'Roboto', sans-serif;
-	--alt-font: 'Roboto', sans-serif, 'Old Standard TT', serif;
-	--third-font: 'Old Standard TT', serif;
+	--alt-font: 'Roboto', sans-serif, 'Lora', serif;
+	--third-font: 'Lora', serif;
+
 	code,
 	pre {
 		border-color:var(--light-text-color);
@@ -189,11 +190,20 @@ a, .post > time, .posts li time, .projects li time {
 	font-family: var(--alt-font);
 }
 
+em {
+	font-family: var(--third-font);
+	font-style: italic;
+	font-weight: 500;
+}
+
 blockquote > p {
 	font-family: var(--third-font);
+	font-style: italic;
 	border-left: 5px solid var(--very-light-text-color);
 	padding-left: 1rem;
 	padding-right: 1rem;
+	color: var(--dark-text-color);
+	
 }
 
  /* font-size */
@@ -216,13 +226,10 @@ h1, h2, h3, h4, h5, strong, b, time, .post > time {
 	Font-weight: 700;
 }
 
-body, a, header a.active,  em {
+body, a, header a.active,  em, p, blockquote > p {
 	Font-weight: 400;
 }
 
-p {
-	Font-weight: 400;
-}
 
 /* font-color */
 
@@ -291,6 +298,7 @@ header li {
 	margin-bottom: 0.2rem;
 	text-align: right;
 	margin-right: 2rem;
+	list-style: disc;
 }
 
 header, section {padding: 1rem 0;}
@@ -304,7 +312,7 @@ section h1:first-child {
 }
 
 .photos ul {
-	list-style: none;
+	list-style: disc;
 }
 
 .photos li {
@@ -318,11 +326,20 @@ section h1:first-child {
 
 .posts ul,
 header ul {
-	list-style: none;
+	list-style: disc;
 }
 
 li {
-	padding-left: 30px;
+	max-width: 630;
+	padding-left: 10px;
+	margin-left: 10px;
+}
+
+ul {
+	max-width: 630;
+	padding-left: 10px;
+	margin-left: 10px;
+	list-style: disc;
 }
 
 .posts li {
@@ -330,7 +347,9 @@ li {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 0.5rem;
+	margin-left: 0.5rem;
 	padding-left: 25px;
+	list-style: disc;
 }
 
 .posts li a,
@@ -339,6 +358,7 @@ li {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	list-style: disc;
 
 }
 

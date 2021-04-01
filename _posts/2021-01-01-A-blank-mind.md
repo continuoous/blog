@@ -6,7 +6,7 @@ summary: An open letter I wrote to myself
 tags: [Life]
 ---
 
-#### Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty.
+*Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty.*
 
 A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
 

@@ -9,13 +9,17 @@ layout: default
           <div></div>
       </button>
     </div>
+    <br></br>
+    <img src="https://source.unsplash.com/wofDw8uqX6I/600x150">
+    
     <section class="posts">
-        <ul>
+        
             {% for post in site.posts %}
             <li>
                 <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time></li>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
+            </li>
             {% endfor %}
-        </ul>
+        
     </section>
 </section>

@@ -51,14 +51,19 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
 
 <br>
 - To illustrate RSA, I'll use: `n` = $$33$$,  `e` = $$7$$,   `d` = $$3$$,  `m` = $$31$$
-- **Encryption**: `m` is encrypted with the function: $$ m^e \bmod n $$
-  * Its the same as the **remainder** of $$ {31^7} / {33} $$ which is $$ 4 $$
-  * So, `c` = $$4$$
+  - `m` is **encrypted** with the below function
+    
+    : $$ m^e \bmod n \\ \equiv {31^7} \bmod {33} \\ \equiv remainder \ of \ {31^7}/{33} \\ = 4$$
+
+  So, `c` $$= 4$$
 
 
-- **Decryption**: `c` is decrypted with the function: $$ c^d \bmod n $$ 
-  * Its the same as the **remainder** of $$ {4^3} / {33} $$ which is $$31$$
-  * Therefore, `m` = $$31$$
+  - `c` is **decrypted** with the below function
+    
+    : $$ c^d \bmod n \\ \equiv {4^3} \bmod {33} \\ \equiv remainder \ of \ {4^3} / {33} \\ = 31$$
+
+  So, `m` $$= 31$$
+
 
 
 

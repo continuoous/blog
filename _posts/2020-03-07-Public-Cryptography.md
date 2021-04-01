@@ -72,13 +72,13 @@ Lets verify if `n` $$= 33$$ , `e` $$= 7$$ , `d` $$= 3$$ and  `m` $$= 31$$  satis
 <br>
 - `e` must be $$>1$$ and a **co-prime** of $$ (p-1) \times (q-1) $$.
   - `e` $$= 7$$ satisfies the condition:
-  - because $$ (p-1) \times (q-1)  \equiv (3-1) \times (11-1) = 20 $$
+  - because $$ (p-1) \times (q-1)  \\ \equiv (3-1) \times (11-1) = 20 $$
   - $$7$$ and $$20$$ are co-primes since their greatest common divisor is $$1$$
 
 <br>
 - `d` must be such that $$ ( d \times e) \bmod ((p-1) \times (q-1)) \equiv 1 $$
   - `d` $$= 3$$ satisfies the condition 
-  - because $$ ( 3 \times 7) \bmod ((3-1) \times (11-1)) \equiv 21 \bmod 20 \equiv 1$$
+  - because $$ ( 3 \times 7) \bmod ((3-1) \times (11-1)) \\ \equiv 21 \bmod 20 \equiv 1$$
 
 <br>
 - `m` must be less than `n` 

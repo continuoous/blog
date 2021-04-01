@@ -32,16 +32,13 @@
 
 html,
 html[data-theme="light"] {
-	--very-light-text-color:#990F3D;
+	--very-light-text-color:#f4f2f8;
 	--light-text-color: #bbb;
-	--medium-text-color: #0D7680;
-	--main-text-color: #262A33;
-	--dark-text-color: #990F3D;
-	--link-color: #1A73EB;
-
-
-
-	background-color: #FFF1E5;
+	--medium-text-color: #6e6e73;
+	--main-text-color: #1D1D1F;
+	--dark-text-color: #000000;
+	--link-color: #0066cc;
+	background-color: #fcfcfc;
 
 	#theme-toggle div {
 		position: relative;
@@ -98,8 +95,6 @@ html[data-theme="dark"] {
 	--main-text-color: #ccc;
 	--dark-text-color: #eee;
 	--link-color: #8AB4F8;
-
-
 	background-color: #202124;
 
 	#theme-toggle div {
@@ -151,9 +146,9 @@ html[data-theme="dark"] {
 }
 
 html{
-	--main-font: 'Open Sans', sans-serif;
-	--alt-font: 'Open Sans', sans-serif, 'Roboto Slab', serif;
-	--third-font: 'Roboto Slab', serif, 'Cutive Mono', monospace;
+	--main-font: 'Roboto', sans-serif;
+	--alt-font: 'Roboto', sans-serif, 'Old Standard TT', serif;
+	--third-font: 'Old Standard TT', serif;
 	code,
 	pre {
 		border-color:var(--light-text-color);
@@ -168,10 +163,10 @@ html{
 }
 
 main {
-	display: flex;
-	max-width: 60vw;
-	margin: -5rem auto 0;
-	padding: 2.4rem 2rem;
+	display: block;
+	max-width: 653px;
+	margin: 0 auto 0 auto;
+	padding: 0.5rem 0.5rem;
 	flex-direction: column;
 }
 
@@ -187,11 +182,11 @@ body, p, time, strong, b, em {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: var(--alt-font);
+	font-family: var(--main-font);
 }
 
 a, .post > time, .posts li time, .projects li time {
-	font-family: var(--third-font);
+	font-family: var(--alt-font);
 }
 
 blockquote > p {
@@ -203,36 +198,45 @@ blockquote > p {
 
  /* font-size */
 
-h1 {Font-Size: 5.7vw;}
-h2 {Font-Size: 4.0vw;}
+h1 {Font-Size: 48px;}
+h2 {Font-Size: 24px;}
 h3 {Font-Size: 3.5vmax;}
 h4 {Font-Size: 3.0vmax;}
 h5 {Font-Size: 2.5vmax;}
-.MathJax, time, .post > time {Font-Size: 1.5vmax;}
+time, .post > time {
+	Font-Size: 14px;
+}
 body,p, a {
-	Font-Size: 2.5vmax;
+	Font-Size: 19px;
 }
 
 /* font-weight */
 
-h1, h2, h3, h4, h5, strong, b {
-	Font-weight: 900;
+h1, h2, h3, h4, h5, strong, b, time, .post > time {
+	Font-weight: 700;
 }
 
-body, a, p, .MathJax, header a.active, time, .post > time, em {
+body, a, header a.active,  em {
+	Font-weight: 400;
+}
+
+p {
 	Font-weight: 400;
 }
 
 /* font-color */
 
 .MathJax, time {
-	color:var(--dark-text-color);
+	color:var(--medium-text-color);
 }
 
-h1, body, h2, h3, h4, h5, hr, a  {
+h1, body, h2, h3, h4, h5, hr  {
 	color: var(--main-text-color);
 }
 
+a  {
+	color: var(--link-color);
+}
 
 strong, b, em {
 	color: var (--light-text-color);
@@ -247,16 +251,15 @@ h1, h2, h3, h4, h5, .post > h1.title {
 	margin-top: 3rem;
 }
 
-body, p, .meta, code, .post > time {
+body, .meta, code, .post > time {
 	line-height: 1.5;
 	margin-bottom: 1.5rem;
 }
 
-
-
-
-
-
+p{
+	line-height: 1.4211;
+	margin-bottom: 1.4211em;
+}
 
 
 pre code {

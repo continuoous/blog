@@ -296,7 +296,7 @@ header li {
 header, section {padding: 1rem 0;}
 
 section {
-	margin-top: 5.5rem;
+	margin-top: 1rem;
 }
 
 section h1:first-child {
@@ -352,13 +352,6 @@ li {
 
 @media screen and (max-width: 1000px) {
 	
-	main {
-		display: flex;
-		max-width: 100vw;
-		margin: 0;
-		padding: 0.5rem 0.5rem;
-		flex-direction: column;
-	}
 	
 	header li {
 		display: inline;
@@ -384,9 +377,6 @@ li {
 	.photos ul {
 		margin-top: 0.5rem;
 	}
-
-
-
 
 	.github-corner {
 		display: none;

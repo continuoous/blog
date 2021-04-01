@@ -6,12 +6,16 @@ summary: About why data science  can be learnt through spreadsheets
 tags: [Excel, Cryptography]
 ---
 
+![Unsplash](https://source.unsplash.com/EPeK7w5Eeic/800x450/ "Source: unsplash.com/@proxyclick")
+
 Our world would be a different place if tech giants and banks couldn't guard passwords. If you think about it, *keeping secrets* is fundamental to how we organize societies.
 
 **RSA algorithm** is the workhorse technique which enables this secret keeping. We can understand **how** this public cryptography works with elementary number theory. Understanding **why** it works is a whole another topic.
 
 
 ## An Analogy
+
+![Unsplash](https://source.unsplash.com/SHeN-2puD7s/800x450/ "Source: unsplash.com/@groovelanddesigns")
 
 One way to send a secret (a password) is to mail a sealed envelope to your banker. This is not secure because the envelope can be *sealed* and *unsealed* by anybody with access to it (like the mailman). 
 
@@ -31,6 +35,8 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
 
 
 ## Encryption & Decryption with an example
+
+![Unsplash](https://source.unsplash.com/hecib2an4T4/800x450/ "Source: unsplash.com/@jeswinthomas")
 
 - The RSA algorithm needs 3 elements to work:
   - `n` > A public *modulus* 
@@ -57,6 +63,9 @@ In short, the Bank publishes a *public key* to **encrypt** messages and will kee
 
 
 ## Rules of RSA algorithm
+
+![Unsplash](https://source.unsplash.com/_U-x3_FYxfI/800x450/ "Source: unsplash.com/@punttim")
+
 
 Joining  encryption and decryption functions, we end up with: <br>
 $$  (m^e \bmod n)^ d \bmod n = m $$ 

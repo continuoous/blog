@@ -6,6 +6,8 @@ summary: About why data science  can be learnt through spreadsheets
 tags: [Excel, Datascience]
 ---
 
+![Unsplash](https://source.unsplash.com/b4dNhklLF7I/800x450/ "Source: unsplash.com/@akhu")
+
 Spreadsheets are an excellent learning canvas to get under the hood and to build intuition for data science algorithms.
 Few domains in our professional lives remain unaffected by machine learning. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
@@ -19,6 +21,8 @@ On one extreme, the dreadful god forsaken year that 2020 was, showed us getting 
 
 ## But why spreadsheets? Familiarity is why.
 
+![Unsplash](https://source.unsplash.com/Wpnoqo2plFA/800x450/ "Source: unsplash.com/@mbaumi")
+
 Right at the outset, if you want to, with your own bare hands – code a machine learning solution and scale it up for use by thousands of users, then ignore spreadsheets.
 
 But if you have invested the past decade or more perfecting spreadsheet skill, then it is your unparalleled learning platform. Unlike with a new programming language, you aren’t trying to figure how to calculate a square root in spreadsheets. You only focus on learning the science with a tool that is your slave. Not the other way round.
@@ -26,6 +30,8 @@ But if you have invested the past decade or more perfecting spreadsheet skill, t
 Despite all its shortcomings, spreadsheets are the most ubiquitous and familiar analytics platform. It doesn’t hurt that excel is a very visual analytics tool needing very little or no code. Through tedious formulas and admittedly inefficient implementations, Excel will lay bare not only how an algorithm functions, but also which parameters affect performance and when things don’t work. It’s the perfect DIY platform to get your hands dirty.
 
 ## What if I’ll never need to write a line of code?
+
+![Unsplash](https://source.unsplash.com/4hbJ-eymZ1o/800x450/ "Source: unsplash.com/@florianolv")
 
 It is common knowledge among experts that most machine learning products have little or nothing to do with machine learning; products labeled “AI enabled” is often an unreasonable exaggeration if not simply a deception. That trend isn’t a coincidence in a world where Investors, Business executives and users have little or no hands-on understanding of data science beyond a crude and misplaced assumption that machine learning and artificial intelligence is akin to a black-box solution. In its worst form, machine learning projects become an expedition of spending millions of dollars only to build a product which reinforces management’s biases and instincts.
 

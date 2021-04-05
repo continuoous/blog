@@ -3,7 +3,7 @@ layout: post
 title: A Blank Mind
 description: Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty.
 summary: 
-tags: [Life]
+tags: [Rumination, Life]
 ---
 
 

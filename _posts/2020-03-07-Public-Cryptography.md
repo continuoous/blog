@@ -3,7 +3,7 @@ layout: post
 title: Public Cryptography
 description: Our world would be a very different place if tech giants and banks couldn't guard passwords.
 summary: About RSA algorithm and its mechanics
-tags: [Excel, Cryptography]
+tags: [Math, Tech]
 ---
 
 ![Unsplash](https://source.unsplash.com/EPeK7w5Eeic/800x450/ "Source: unsplash.com/@proxyclick")

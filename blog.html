@@ -4,57 +4,27 @@ layout: default
 
 <section class="posts">
     <div class="flex-row-between">
-        <a href="{{site.url}}/">&laquo; home </a>
+        <a href="{{site.url}}"><strong> continuoous</strong></a>
       <button id="theme-toggle" onclick="modeSwitcher()">
           <div></div>
       </button>
     </div>
 
-</section>    
+</section>
 
 <section class="posts">
-        <h2>Tech</h2>
-            <ul>
-              {% for post in site.posts %}
-              {% if post.tags contains "Tech" %}
-              <li></a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><a class="post" href="{{ post.url }}">{{ post.title }}</li>
-              {% endif %}
-              {% endfor %}
-            </ul>  
-    </section>
-    
-    <img src="https://source.unsplash.com/wofDw8uqX6I/600x150">
-    <section class="posts">
-    <h2>Math</h2>
-            <ul>
-                {% for post in site.posts %}
-                {% if post.tags contains "Math" %}
-                <li></a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><a class="post" href="{{ post.url }}">{{ post.title }}</li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </section>
-        <img src="https://source.unsplash.com/wofDw8uqX6I/600x150">
-    <section class="posts">
-        <h2>Spreadsheet</h2>
-            <ul>
-                {% for post in site.posts %}
-                {% if post.tags contains "Spreadsheet" %}
-                <li></a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time><a class="post" href="{{ post.url }}">{{ post.title }}</li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-    </section>
+        
+    {% for post in site.posts %}
+    <li>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        
+    </li>
+    {% endfor %}
 
-    <section class="posts">
-        
-            {% for post in site.posts %}
-            <li>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                
-            </li>
-            {% endfor %}
-        
-    </section>
+</section>
+
+
+
+
 

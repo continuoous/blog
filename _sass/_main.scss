@@ -226,11 +226,15 @@ body,p, a {
 
 /* font-weight */
 
-h1, h2, h3, h4, h5, strong, b, time, .post > time {
+h1, h2, h3, h4, h5 {
+	Font-weight: 900;
+}
+
+strong, a, b, time, .post > time {
 	Font-weight: 700;
 }
 
-body, a, header a.active,  em, p, blockquote > p {
+body, header a.active,  em, p, blockquote > p {
 	Font-weight: 400;
 }
 

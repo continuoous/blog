@@ -146,9 +146,9 @@ html[data-theme="dark"] {
 }
 
 html{
-	--main-font: 'Roboto', sans-serif;
-	--alt-font: 'Roboto', sans-serif, 'Lora', serif;
-	--third-font: 'Merriweather', serif;
+	--main-font: 'Inter', sans-serif;
+	--alt-font: 'Roboto', sans-serif;
+	--third-font: 'Playfair Display', serif;
 
 	code,
 	pre {
@@ -193,7 +193,7 @@ a, .post > time, .posts li time, .projects li time {
 em {
 	font-family: var(--third-font);
 	font-style: italic;
-	font-weight: 500;
+	font-weight: 400;
 	font-size: 16px;
 	color: var(--medium-text-color);
 }
@@ -201,6 +201,8 @@ em {
 blockquote > p {
 	font-family: var(--third-font);
 	font-style: italic;
+	font-weight: 400;
+	font-size: 18px;
 	border-left: 5px solid var(--very-light-text-color);
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -210,7 +212,7 @@ blockquote > p {
 
  /* font-size */
 
-h1 {Font-Size: 48px;}
+h1 {Font-Size: 36px;}
 h2 {Font-Size: 24px;}
 h3 {Font-Size: 3.5vmax;}
 h4 {Font-Size: 3.0vmax;}
@@ -376,11 +378,19 @@ ul {
 
 @media screen and (max-width: 1000px) {
 	
-	
+	main {
+		display: block;
+		margin: 0 auto 0 auto;
+		padding: 1.5rem 1.5rem;
+		flex-direction: column;
+	}
+
 	header li {
 		display: inline;
-		margin-right: 1rem;
+		margin-right: 5px;
 		margin-bottom: 3rem;
+		margin-top: 0px;
+    	margin-left: 5px;
 	}
 	
 	time {

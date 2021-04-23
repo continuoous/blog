@@ -148,7 +148,7 @@ html[data-theme="dark"] {
 html{
 	--main-font: 'Inter', sans-serif;
 	--alt-font: 'Roboto', sans-serif;
-	--third-font: 'Playfair Display', serif;
+	--third-font: 'Merriweather', serif;
 
 	code,
 	pre {
@@ -158,14 +158,24 @@ html{
 		border-radius: 5px;
 		padding-left: 10px;
 		padding-right: 10px;
-		font-family: var(--third-font);
+		font-family: var(--alt-font);
 		Font-weight: 400;
 		}
 }
 
+div.sticky {
+	max-width: 775px;
+	position: sticky;
+	top: 0;
+	bottom: 50;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
 main {
 	display: block;
-	max-width: 653px;
+	max-width: 775px;
 	margin: 0 auto 0 auto;
 	padding: 0.5rem 0.5rem;
 	flex-direction: column;
@@ -212,7 +222,7 @@ blockquote > p {
 
  /* font-size */
 
-h1 {Font-Size: 36px;}
+h1 {Font-Size: 32px;}
 h2 {Font-Size: 24px;}
 h3 {Font-Size: 3.5vmax;}
 h4 {Font-Size: 3.0vmax;}
@@ -261,7 +271,7 @@ strong, b, em {
 /* line-height and margins */
 
 h1, h2, h3, h4, h5, .post > h1.title {
-	line-height: 1;
+	line-height: 1.15;
 	margin-bottom: 1rem;
 	margin-top: 3rem;
 }

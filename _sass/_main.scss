@@ -38,6 +38,7 @@ html[data-theme="light"] {
 	--main-text-color: #1D1D1F;
 	--dark-text-color: #000000;
 	--link-color: #0066cc;
+	--marker-color:  #5522FB;
 	background-color: #fcfcfc;
 
 	#theme-toggle div {
@@ -95,6 +96,7 @@ html[data-theme="dark"] {
 	--main-text-color: #ccc;
 	--dark-text-color: #eee;
 	--link-color: #8AB4F8;
+	--marker-color: #9777FD;
 	background-color: #202124;
 
 	#theme-toggle div {
@@ -149,19 +151,20 @@ html{
 	--main-font: 'Inter', sans-serif;
 	--alt-font: 'Cutive Mono', monospace;
 	--third-font: 'Merriweather', serif;
+	--logo-font: 'Merriweather', serif;
 
 	li
 	 {
 		border-width: 1px;
 		border-radius: 5px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 0px;
+		padding-right: 0px;
 		Font-weight: 400;
-		margin-left: 30px;
+		margin-left: 20px;
 		}
 }
 
-li::marker {font-family: var(--alt-font);margin-left:25px}
+li::marker {color: var(--marker-color);}
 
 
 
@@ -171,8 +174,7 @@ div.sticky {
 	top: 0;
 	bottom: 50;
 	padding: 5px;
-	border-bottom: 0.5px solid;
-	border-color:var(--light-text-color);
+
   }
 
 main {
@@ -202,6 +204,8 @@ h1, h2, h3, h4, h5 {
 	font-family: var(--alt-font);
 }
 
+LOGO {font-family: var(--logo-font);}
+
 em {
 	font-family: var(--third-font);
 	font-style: italic;
@@ -226,21 +230,21 @@ li, li > p {margin-bottom: 0px;}
 
  /* font-size */
 
-h1 {Font-Size: 32px;}
-h2 {Font-Size: 24px;}
+h1 {Font-Size: 64px;}
+h2,p, body, li {Font-Size: 24px;}
 h3 {Font-Size: 20px;}
 h4 {Font-Size: 16px;}
 h5 {Font-Size: 12px;}
 time, .post > time {
 	Font-Size: 14px;
 }
-body,p, a {
+a, code, pre, logo, em {
 	Font-Size: 18px;
 }
 
 /* font-weight */
 
-h2, h3, h4, h5, li::marker {
+logo, h2, h3, h4, h5, li::marker {
 	Font-weight: 900;
 }
 
@@ -363,16 +367,16 @@ header ul {
 }
 
 li {
-	max-width: 630;
+	max-width: 700px;
 	padding-left: 10px;
 	margin-left: 10px;
 }
 
 ul {
-	max-width: 630;
-	padding-left: 10px;
-	margin-left: 10px;
-	list-style: disc;
+	max-width: 685px;
+	padding-left: 0px;
+	margin-left: 0px;
+	list-style:initial;
 }
 
 .posts li {
@@ -400,15 +404,16 @@ ul {
 .flex-row-between {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content:space-around;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 775px) {
 	
 	main {
 		display: block;
 		margin: 0 auto 0 auto;
-		padding: 1.5rem 1.5rem;
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
 		flex-direction: column;
 	}
 
@@ -420,9 +425,21 @@ ul {
     	margin-left: 5px;
 	}
 	
-	time {
+	time, logo {
 		display: none;
 	}
+
+	h1 {Font-Size: 6vmin;}
+h2,p, body, li, em, strong, code, pre, pre > code, em, blockquote > p, ul > p, code.highlighter-rouge {Font-Size: 2.5vmax;}
+h3 {Font-Size: 4px;}
+h4 {Font-Size: 16px;}
+h5 {Font-Size: 12px;}
+time, .post > time {
+	Font-Size: 14px;
+}
+a, code, pre, logo {
+	Font-Size: 18px;
+}
 
 	.logo {
 		padding-bottom: 1rem;

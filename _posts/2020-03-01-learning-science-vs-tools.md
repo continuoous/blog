@@ -8,14 +8,15 @@ tags: [Spreadsheet, Tech]
 
 ![Unsplash](https://source.unsplash.com/b4dNhklLF7I/800x450/ "Source: unsplash.com/@akhu")
 
-1.  Machine learning affects many domains of our professional lives. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
+*  Machine learning affects many domains of our professional lives. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
 — MIT Technology Review
-2. Beyond consuming online services, unbeknownst to us, we also interact with several machine learning algorithms vying, at the same time, to nudge our attention and our choices.
 
-It’s not to say that my aim or yours should be to become a data science engineer overnight. However, good understanding of data science is a matter of remaining relevant at workplace. It’s also to be aware of how our choices are influenced by machines.
+* Beyond consuming online services, unbeknownst to us, we also interact with several machine learning algorithms vying, at the same time, to nudge our attention and our choices.
 
-On one extreme, the dreadful god forsaken year that 2020 was, showed us getting data analytics right can be a matter of life and death. On the other end of the spectrum, novel applications of data science might tickle a brain curious not only about how it all works but also about why it works at all and when might it all go wrong.
+* It’s not to say that my aim or yours should be to become a data science engineer overnight. However, good understanding of data science is a matter of remaining relevant at workplace. It’s also to be aware of how our choices are influenced by machines.
+
+* On one extreme, the dreadful god forsaken year that 2020 was, showed us getting data analytics right can be a matter of life and death. On the other end of the spectrum, novel applications of data science might tickle a brain curious not only about how it all works but also about why it works at all and when might it all go wrong.
 
 ## But why spreadsheets? Familiarity is why.
 

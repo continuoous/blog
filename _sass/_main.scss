@@ -165,6 +165,7 @@ html{
 }
 
 li::marker {color: var(--marker-color);}
+ul>li::marker {color: var(--medium-text-color);}
 
 
 

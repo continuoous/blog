@@ -8,7 +8,7 @@ tags: [Spreadsheet, Tech]
 
 ![Unsplash](https://source.unsplash.com/b4dNhklLF7I/800x450/ "Source: unsplash.com/@akhu")
 
-Few domains in our professional lives remain unaffected by machine learning. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
+1.  Few domains in our professional lives remain unaffected by machine learning. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
 — MIT Technology Review
 

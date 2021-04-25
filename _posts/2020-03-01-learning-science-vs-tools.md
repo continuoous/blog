@@ -8,11 +8,10 @@ tags: [Spreadsheet, Tech]
 
 ![Unsplash](https://source.unsplash.com/b4dNhklLF7I/800x450/ "Source: unsplash.com/@akhu")
 
-1.  Few domains in our professional lives remain unaffected by machine learning. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
+1.  Machine learning affects many domains of our professional lives. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
 — MIT Technology Review
-
-Most times I unlock my phone - beyond consuming online services, unbeknownst to me, I’m also interacting with several machine learning algorithms vying, at the same time, to nudge my attention and my choices.
+2. Beyond consuming online services, unbeknownst to us, we also interact with several machine learning algorithms vying, at the same time, to nudge our attention and our choices.
 
 It’s not to say that my aim or yours should be to become a data science engineer overnight. However, good understanding of data science is a matter of remaining relevant at workplace. It’s also to be aware of how our choices are influenced by machines.
 

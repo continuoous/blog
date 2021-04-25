@@ -157,6 +157,7 @@ html{
 		padding-left: 10px;
 		padding-right: 10px;
 		Font-weight: 400;
+		margin-left: 30px;
 		}
 }
 
@@ -189,7 +190,7 @@ h1, h2, h3, h4, h5, .post > time, .posts li time, .projects li time, body, a, p,
 
 /* font-family */
 
-body, p, time, strong, b, em, li, li > p {
+a, body, p, time, strong, b, em, li, li > p {
 	font-family: var(--main-font);
 }
 
@@ -197,7 +198,7 @@ h1, h2, h3, h4, h5 {
 	font-family: var(--main-font);
 }
 
-a, .post > time, .posts li time, .projects li time, pre, code {
+.post > time, .posts li time, .projects li time, pre, code {
 	font-family: var(--alt-font);
 }
 
@@ -262,7 +263,11 @@ h1, body, h2, h3, h4, h5, hr  {
 	color: var(--main-text-color);
 }
 
-a, code, pre  {
+code, pre  {
+	color: var(--dark-text-color);
+}
+
+a  {
 	color: var(--link-color);
 }
 
@@ -285,7 +290,7 @@ body, .meta, .post > time {
 	margin-bottom: 0.5rem;
 }
 
-p{
+p, li > p, ul{
 	line-height: 1.4211;
 	margin-bottom: 1.4211em;
 }

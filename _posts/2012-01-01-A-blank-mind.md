@@ -5,8 +5,6 @@ description: Conscience is bankrupt if it isn’t clean, a mind equally so if it
 summary: 
 tags: [Rumination, Life]
 ---
-
-
 ![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/800x450/ "Source: unsplash.com/@sashafreemind")
 
 A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.

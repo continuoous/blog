@@ -6,36 +6,25 @@ summary: Spreadsheets are an excellent learning canvas to get under the hood and
 tags: [Spreadsheet, Tech]
 ---
 
-![Unsplash](https://source.unsplash.com/b4dNhklLF7I/800x450/ "Source: unsplash.com/@akhu")
+![Unsplash](https://source.unsplash.com/4hbJ-eymZ1o/800x450/ "Source: unsplash.com/@florianolv")
 
-*  Machine learning affects many domains of our professional lives. Businesses have thrived by integrating data science into operational strategy. Others have lost ground to competitors for ignoring latest advances.
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
 — MIT Technology Review
 
-* Beyond consuming online services, unbeknownst to us, we also interact with several machine learning algorithms vying, at the same time, to nudge our attention and our choices.
+1. We interact with machine learning algorithms all the time. It’s not to say that my aim or yours should be to become a data science engineer overnight. But, understanding data science is a matter of staying relevant at workplace and being aware of how our attention and choices are nudged by machines.
 
-* It’s not to say that my aim or yours should be to become a data science engineer overnight. However, good understanding of data science is a matter of remaining relevant at workplace. It’s also to be aware of how our choices are influenced by machines.
+2. On one extreme, 2020 was evidence enough that data analytics can be a matter of life and death. On the other end, data science applications might tickle a curious brain not only about how it works but also why it works and when might it might go wrong.
 
-* On one extreme, the dreadful god forsaken year that 2020 was, showed us getting data analytics right can be a matter of life and death. On the other end of the spectrum, novel applications of data science might tickle a brain curious not only about how it all works but also about why it works at all and when might it all go wrong.
+3. There's value in learning Data science even if you'll never write a line of code. For one, its common knowledge among experts that most machine learning products have little or nothing to do with machine learning; products labeled “AI enabled” are often an unreasonable exaggeration. That trend isn’t a coincidence in a world where Investors, Business executives and users have little understanding of data science.
 
-## But why spreadsheets? Familiarity is why.
+4. As a practical matter, understanding the mechanics of data science could mean you avoid wasting time and resources on projects to solve problems which haven’t been conquered by the most cutting-edge data science models. In its worst form, machine learning projects then become an expedition of spending millions of dollars only to build a product which reinforces management’s biases and instincts.
 
-![Unsplash](https://source.unsplash.com/Wpnoqo2plFA/800x450/ "Source: unsplash.com/@mbaumi")
+5. So, learn data science to unlock opportunities to solve problems previously considered unsolvable and to separate problems needing Machine Learning from those solvable with rudimentary business rule tables.
 
-Right at the outset, if you want to, with your own bare hands – code a machine learning solution and scale it up for use by thousands of users, then ignore spreadsheets.
+6. Enter **Spreadsheets**. Right at the outset, if you want to, with your own bare hands – code a machine learning solution and scale it up for use by thousands of users, then, by all means, ignore spreadsheets.
 
-But if you have invested the past decade or more perfecting spreadsheet skill, then it is your unparalleled learning platform. Unlike with a new programming language, you aren’t trying to figure how to calculate a square root in spreadsheets. You only focus on learning the science with a tool that is your slave. Not the other way round.
+7. But if you invested the past decade perfecting your spreadsheet skill, then it is your unparalleled data science learning platform. You dont need to figure the syntax or lists of built-in functions. You focus on learning the science using a tool that is your slave. Not the other way round.
 
-Despite all its shortcomings, spreadsheets are the most ubiquitous and familiar analytics platform. It doesn’t hurt that excel is a very visual analytics tool needing very little or no code. Through tedious formulas and admittedly inefficient implementations, Excel will lay bare not only how an algorithm functions, but also which parameters affect performance and when things don’t work. It’s the perfect DIY platform to get your hands dirty.
+8. Despite its shortcomings, spreadsheets are the most ubiquitous and familiar analytics platform. It doesn’t hurt that spreadsheets are a visual analytics tool needing little or no code. 
 
-## What if I’ll never need to write a line of code?
-
-![Unsplash](https://source.unsplash.com/4hbJ-eymZ1o/800x450/ "Source: unsplash.com/@florianolv")
-
-It is common knowledge among experts that most machine learning products have little or nothing to do with machine learning; products labeled “AI enabled” is often an unreasonable exaggeration if not simply a deception. That trend isn’t a coincidence in a world where Investors, Business executives and users have little or no hands-on understanding of data science beyond a crude and misplaced assumption that machine learning and artificial intelligence is akin to a black-box solution. In its worst form, machine learning projects become an expedition of spending millions of dollars only to build a product which reinforces management’s biases and instincts.
-
-As a practical matter, understanding the mechanics of data science could mean you avoid wasting time and resources on projects to solve problems which haven’t been conquered by the most cutting-edge data science models. 
-
-It could also mean unlocking opportunities to solve problems previously considered unsolvable. But most importantly, it could mean you separate problems needing Machine Learning from those which can be solved with rudimentary business rule tables.
-
-I want to explore data science and machine learning on a spreadsheet canvas for the same reason I like  DIY projects. It’s fun!
+9. Through tedious formulas and admittedly inefficient implementations, Excel will lay bare how an algorithm works, which parameters affect performance and when things don’t work. It’s the perfect DIY platform to get your hands dirty.

@@ -16,3 +16,6 @@ We suffer chronically from time inconsistent behaviour.
 
 Right at the outset, if you want to, with your own bare hands – code a machine learning solution and scale it up for use by 
 
+1. We have a time inconsistency bias
+2. discount rates concept
+3. 

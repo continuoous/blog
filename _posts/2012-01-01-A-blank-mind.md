@@ -4,6 +4,7 @@ title: A Blank Mind
 description: Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty.
 summary: Ruminations about a jaded internet age mind exposed to endless simulations. Its unable to appreciate the everyday joys, trivial and otherwise.
 tags: [Rumination, Life]
+img: https://source.unsplash.com/nXo2ZsKHTHg/200x150/
 ---
 ![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/800x450/ "Source: unsplash.com/@sashafreemind")
 

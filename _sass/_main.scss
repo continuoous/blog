@@ -174,20 +174,26 @@ html{
 li::marker {color: var(--marker-color);}
 ul>li::marker {color: var(--medium-text-color);}
 
-.flex-row-between > a, logo, .posts > a   {
+.flex-row-between > a, logo, .posts-summary > a   {
 	font-size: 18px;
 	font-family: var(--main-font);
 	color:var(--marker-color);
 	}
 
-	.posts > p {
+	
+
+	div.posts-summary > p {
 		font-size: 16px;
 		min-height: 100px;
 		border-bottom:solid;
 		border-width:1px;
 		border-color:var(--very-light-text-color);
+		white-space: pre-wrap;
 	
 	}
+
+.posts > li { margin-left: 0;}
+
 div.sticky {
 	position: sticky;
 	top: 0;
@@ -210,20 +216,15 @@ h1, h2, h3, h4, h5, .post > time, .posts li time, .projects li time, body, a, p,
 
 /* font-family */
 
-a, b, body, em, h2, h3, h4, h5, li, li > p, p, strong, .post > time, time {
+h1, a, b, body, em, h2, h3, h4, h5, li, li > p, p, strong, .post > time, time {
 	font-family: var(--main-font);
 }
 
-.posts li time, .projects li time, pre, code {
+ .projects li time, pre, code {
 	font-family: var(--alt-font);
 }
 
 LOGO {font-family: var(--logo-font);}
-
-
-h1 {
-	font-family: var(--third-font);
-}
 
 em {
 	font-family: var(--third-font);
@@ -295,17 +296,17 @@ li > a {color: var(--marker-color);}
 
 a:hover {
 	background-color: #fe0;
+	color:#5522FB;
   }
 
 strong, b, em, li::marker {
 	color: var (--light-text-color);
 }
 
-
 /* line-height and margins */
 
 h1, h2, h3, h4, h5, .post > h1.title {
-	line-height: 1.2;
+	line-height: 1;
 	margin-bottom: 0;
 	margin-top: 1;
 }
@@ -421,6 +422,14 @@ ul {
 
 }
 
+div.posts-summary {
+	max-width: 450px;
+}
+
+.posts-img {
+	width: 200px;
+	height: 150px;
+}
 
 
 .flex-row-between {
@@ -452,9 +461,11 @@ ul {
     	margin-left: 5px;
 	}
 	
-	li > time, logo {
+	li > time, logo, .posts-img {
 		display: none;
 	}
+
+	.posts, .posts > li { padding: 0px;}
 
 	h1 {Font-Size: 6vmin;}
 	h2,p, a, body, li, em, strong, code, pre, pre > code, em, blockquote > p, ul > p, code.highlighter-rouge {Font-Size: 2.5vmax;}

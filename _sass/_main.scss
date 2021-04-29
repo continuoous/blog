@@ -37,7 +37,7 @@ html[data-theme="light"] {
 	--medium-text-color: #6e6e73;
 	--main-text-color: #1D1D1F;
 	--dark-text-color: #000000;
-	--link-color: #0066cc;
+	--link-color: #ff585d;
 	--marker-color:  #5522FB;
 	background-color: #fcfcfc;
 
@@ -95,7 +95,7 @@ html[data-theme="dark"] {
 	--medium-text-color: #888;
 	--main-text-color: #ccc;
 	--dark-text-color: #eee;
-	--link-color: #8AB4F8;
+	--link-color: #ff585d;
 	--marker-color: #9777FD;
 	background-color: #202124;
 
@@ -151,7 +151,14 @@ html{
 	--main-font: 'Inter', sans-serif;
 	--alt-font: 'Cutive Mono', monospace;
 	--third-font: 'Merriweather', serif;
-	--logo-font: 'Merriweather', serif;
+	--logo-font: 'Inter', sans-serif;
+
+	::selection {
+		color: #5522FB;
+		background: #fe0;
+	  }
+
+
 
 	li
 	 {
@@ -167,15 +174,25 @@ html{
 li::marker {color: var(--marker-color);}
 ul>li::marker {color: var(--medium-text-color);}
 
+.flex-row-between > a, logo, .posts > a   {
+	font-size: 18px;
+	font-family: var(--main-font);
+	color:var(--marker-color);
+	}
 
-
-div.sticky {
+	.posts > p {
+		font-size: 16px;
+		min-height: 75px;
+		border-bottom:solid;
+		border-width:1px;
+		border-color:var(--very-light-text-color);
 	
+	}
+div.sticky {
 	position: sticky;
 	top: 0;
 	bottom: 50;
 	padding: 5px;
-
   }
 
 main {
@@ -193,27 +210,23 @@ h1, h2, h3, h4, h5, .post > time, .posts li time, .projects li time, body, a, p,
 
 /* font-family */
 
-a, body, p, time, strong, b, em, li, li > p {
+a, b, body, em, h2, h3, h4, h5, li, li > p, p, strong, .post > time, time {
 	font-family: var(--main-font);
 }
 
-h2, h3, h4, h5 {
-	font-family: var(--main-font);
-}
-
-.post > time, .posts li time, .projects li time, pre, code {
+.posts li time, .projects li time, pre, code {
 	font-family: var(--alt-font);
 }
 
 LOGO {font-family: var(--logo-font);}
 
-h1{font-family: var(--third-font)}
+
+h1 {
+	font-family: var(--third-font);
+}
 
 em {
 	font-family: var(--third-font);
-	font-style: italic;
-	font-weight: 400;
-	font-size: 16px;
 	color: var(--medium-text-color);
 }
 
@@ -234,24 +247,20 @@ li, li > p {margin-bottom: 0px;}
  /* font-size */
 
 h1 {Font-Size: 64px;}
-h2,p, body, li {Font-Size: 24px;}
+h2,p, body, li, a, code, pre, em {Font-Size: 24px;}
 h3 {Font-Size: 20px;}
 h4 {Font-Size: 16px;}
 h5 {Font-Size: 12px;}
-time, .post > time {
-	Font-Size: 14px;
-}
-a, code, pre, logo, em {
-	Font-Size: 18px;
-}
+time, .post > time {Font-Size: 14px;}
+
 
 /* font-weight */
 
-logo, h2, h3, h4, h5, li::marker {
+h2, h3, h4, h5, li::marker {
 	Font-weight: 900;
 }
 
-h1, strong, code, a, b, time, .post > time {
+logo, h1, strong, code, a, b, time, .post > time {
 	Font-weight: 700;
 }
 
@@ -266,7 +275,11 @@ body, header a.active,  em, p, blockquote > p {
 	color:var(--medium-text-color);
 }
 
-h1, body, h2, h3, h4, h5, hr  {
+logo, body, h2, h3, h4, h5, hr, h1  {
+	color: var(--main-text-color);
+}
+
+.posts > li > a{
 	color: var(--main-text-color);
 }
 
@@ -277,6 +290,12 @@ code, pre  {
 a  {
 	color: var(--link-color);
 }
+
+li > a {color: var(--marker-color);}
+
+a:hover {
+	background-color: #fe0;
+  }
 
 strong, b, em, li::marker {
 	color: var (--light-text-color);
@@ -298,7 +317,7 @@ body, .meta, .post > time {
 }
 
 p, li > p, ul{
-	line-height: 1.4211;
+	line-height: 1.4211em;
 	margin-bottom: 1.4211em;
 }
 
@@ -405,6 +424,11 @@ ul {
 
 
 .flex-row-between {
+	max-width:775px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;
+	margin-bottom:50px;
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
@@ -433,16 +457,13 @@ ul {
 	}
 
 	h1 {Font-Size: 6vmin;}
-h2,p, body, li, em, strong, code, pre, pre > code, em, blockquote > p, ul > p, code.highlighter-rouge {Font-Size: 2.5vmax;}
-h3 {Font-Size: 4px;}
-h4 {Font-Size: 16px;}
-h5 {Font-Size: 12px;}
-time, .post > time {
-	Font-Size: 14px;
-}
-a, code, pre, logo {
-	Font-Size: 18px;
-}
+	h2,p, a, body, li, em, strong, code, pre, pre > code, em, blockquote > p, ul > p, code.highlighter-rouge {Font-Size: 2.5vmax;}
+	h3 {Font-Size: 4px;}
+	h4 {Font-Size: 16px;}
+	h5 {Font-Size: 12px;}
+	time, .post > time {
+		Font-Size: 14px;
+	}
 
 	.logo {
 		padding-bottom: 1rem;

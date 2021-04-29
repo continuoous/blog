@@ -5,16 +5,100 @@ description: Exploiting vulnerabilities in Cellebrite UFED and Physical Analyzer
 summary: moxie0 on 21 Apr 2021
 tags: [Tech, Rumination]
 ---
-Cellebrite makes software to automate physically extracting and indexing data from mobile devices. They exist within the grey – where enterprise branding joins together with the larcenous to be called “digital intelligence.” Their customer list has included authoritarian regimes in Belarus, Russia, Venezuela, and China; death squads in Bangladesh; military juntas in Myanmar; and those seeking to abuse and oppress in Turkey, UAE, and elsewhere. A few months ago, they announced that they added Signal support to their software.
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
 
-Their products have often been linked to the persecution of imprisoned journalists and activists around the world, but less has been written about what their software actually does or how it works. Let’s take a closer look. In particular, their software is often associated with bypassing security, so let’s take some time to examine the security of their own software.
+Heading level 1
+===============
 
-## The background
+Heading level 2
+---------------
 
-First off, anything involving Cellebrite starts with someone else physically holding your device in their hands. Cellebrite does not do any kind of data interception or remote surveillance. They produce two primary pieces of software (both for Windows): UFED and Physical Analyzer.
+I just love **bold text**.
 
-UFED creates a backup of your device onto the Windows machine running UFED (it is essentially a frontend to `adb backup` on Android and iTunes backup on iPhone, with some additional parsing). Once a backup has been created, Physical Analyzer then parses the files from the backup in order to display the data in browsable form.
+I just love __bold text__.
 
-When Cellebrite announced that they added Signal support to their software, all it really meant was that they had added support to Physical Analyzer for the file formats used by Signal. This enables Physical Analyzer to display the Signal data that was extracted from an unlocked device in the Cellebrite user’s physical possession.
+Love**is**bold
 
-One way to think about Cellebrite’s products is that if someone is physically holding your unlocked device in their hands, they could open whatever apps they would like and take screenshots of everything in them to save and go over later. Cellebrite essentially automates that process for someone holding your device in their hands.
+Italicized text is the *cat's meow*.
+
+Italicized text is the _cat's meow_.
+
+A*cat*meow
+
+This text is ***really important***.
+
+This text is ___really important___.
+
+This text is __*really important*__.
+
+This text is **_really important_**.
+
+This is really***very***important text.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+> #### The quarterly results look great!
+>
+> - Revenue was off the chart.
+> - Profits were higher than ever.
+>
+>  *Everything* is going according to **plan**.
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
+- First item
+- Second item
+- Third item
+- Fourth item
+
+* First item
+* Second item
+* Third item
+* Fourth item
+
++ First item
++ Second item
++ Third item
++ Fourth item
+
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
+
+- 1968\. A great year!
+- I think 1969 was second best.
+
+*   This is the first list item.
+*   Here's the second list item.
+
+    I need to add another paragraph below the second list item.
+
+*   And here's the third list item.
+
+***

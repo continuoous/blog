@@ -2,7 +2,7 @@
 layout: post
 title: Public Cryptography
 description: Keeping secrets is fundamental for democracies.
-summary: Our world would be very different if tech giants and banks couldn't guard passwords.
+summary: Our world would be very different if tech giants and banks couldn't guard passwords. RSA is the workhorse algorithm of this secret keeping. Lets explore how it works.
 tags: [Math, Tech]
 ---
 
@@ -37,23 +37,20 @@ tags: [Math, Tech]
 ![Unsplash](https://source.unsplash.com/_U-x3_FYxfI/800x450/ "Source: unsplash.com/@punttim")
 
 10. The algorithm holds true only in the bounds of 4 constraints.
-  - $$n$$ must be $$ p \times q$$ where both $$p$$ and $$q$$ are prime numbers.
-  - $$e$$ must be a *co-prime* of $$ (p-1) \times (q-1)$$ and $$>1$$.
-  - $$d$$ must be such that $$ ( d \times e) \bmod ((p-1) \times (q-1)) \equiv 1 $$. 
+  - $$n$$ must be $$ p \times q$$ where 
+    > both $$p$$ and $$q$$ are prime numbers.
+  - $$e$$ must such that it is
+    > a *co-prime* of $$ (p-1) \times (q-1)$$ and $$>1$$.
+  - $$d$$ must be such that 
+    > $$ ( d \times e) \bmod ((p-1) \times (q-1)) \equiv 1 $$. 
   - $$m$$ must be less than $$n$$
 
-11. These constraints hold when <br> $$n$$ = $$33$$,  $$e$$ = $$7$$,   $$d$$ = $$3$$ and $$m = 31$$
-<br>
-<br>
-
-- $$n$$ is $$3 \times 11 $$, both primes;
-
-- $$7$$ is a co-prime of $$20$$. 
-> $$20$$ is $$(p-1) \times (q-1)$$; 
-
-- $$21 \bmod 20$$ is $$1$$
-  > $$21$$ is $$( d \times e) \equiv (3 \times 7)$$
-  
-  > $$20$$ is $$(p-1) \times (q-1)$$; 
-
-- $$m \equiv 31$$ is less than $$n \equiv 33$$
+11. These constraints hold for $$n$$ = $$33$$,  $$e$$ = $$7$$,   $$d$$ = $$3$$ and $$m = 31$$
+  - $$n$$ is $$3 \times 11 $$
+    > both $$3$$ and $$11$$ are prime numbers;
+  - $$7$$ is a co-prime of $$20$$. 
+    > $$20$$ is $$(p-1) \times (q-1)$$; 
+  - $$21 \bmod 20$$ is $$1$$
+    > $$21$$ is $$( d \times e) \equiv (3 \times 7)$$ <br>
+    and $$20$$ is $$(p-1) \times (q-1)$$; 
+  - $$m \equiv 31$$ is less than $$n \equiv 33$$

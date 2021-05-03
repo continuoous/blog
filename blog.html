@@ -8,14 +8,16 @@ layout: default
 <li>
     
     <div class="posts-summary">
+        
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <br>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
-           
         <p href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</p>
+        
 </div>
 <div class="posts-img">
     <img src="{{ post.img | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
 </li>
+
     {% endfor %}
 
 </section>

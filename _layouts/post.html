@@ -7,8 +7,12 @@ layout: default
 </script>
 
 <section class="post">
+
   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-  <h1 class="title">{{ page.description }}</h1>
+  <h1 class="title"><span>{{ page.description }}</span></h1>
+
   {{ content }}
+
+
 
 </section>

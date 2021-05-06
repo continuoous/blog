@@ -38,8 +38,9 @@ html[data-theme="light"] {
 	--main-text-color: #1D1D1F;
 	--dark-text-color: #000000;
 	--link-color: #ff585d;
-	--marker-color:  #121BFA;
-	background-color: #fcfcfc;
+	--marker-color:  #551EFA;
+	--background-color: #fcfcfc;
+	background-color: var(--background-color);
 
 	#theme-toggle div {
 		position: relative;
@@ -96,8 +97,9 @@ html[data-theme="dark"] {
 	--main-text-color: #ccc;
 	--dark-text-color: #eee;
 	--link-color: #ff585d;
-	--marker-color: #9777FD;
-	background-color: #202124;
+	--marker-color: #ffde29;
+	--background-color:#202124;
+	background-color:var(--background-color);
 
 	#theme-toggle div {
 		position: relative;
@@ -154,8 +156,8 @@ html{
 	--logo-font: 'Inter', sans-serif;
 
 	::selection {
-		color: #121BFA;
-		background: #fe0;
+		color: #551EFA;
+		background: #ffde29;
 	  }
 
 
@@ -205,6 +207,7 @@ div.sticky {
 	padding: 5px;
   }
 
+
 main {
 	display: block;
 	max-width: 775px;
@@ -224,7 +227,7 @@ h1, a, b, body, em, h2, h3, h4, h5, li, li > p, p, strong, .post > time, time {
 	font-family: var(--main-font);
 }
 
-h1>span{background-color: #fe0; font-style:normal;}
+h1>span{background-color: #ffd300; font-style:normal;}
 
  .projects li time, pre, code {
 	font-family: var(--alt-font);
@@ -284,7 +287,7 @@ body, header a.active,  em, p, blockquote > p {
 
 h1{color:black;}
 
-logo, body, h2, h3, h4, h5, hr {
+logo, body, h2, h3, h4, h5, hr, .collapsible>h3 {
 	color: var(--main-text-color);
 }
 
@@ -302,9 +305,19 @@ a  {
 
 li > a {color: var(--marker-color);}
 
-a:hover {
-	background-color: #fe0;
-	color:#121BFA;
+a:hover, logo:hover {
+	background-color: #ffd300;
+	color:black;
+  }
+
+.collapsible:hover {
+	background-color:var(--light-text-color);
+	color:black;
+  }
+
+  div.posts-summary:hover{
+	background-color: var(--very-light-text-color);
+	
   }
 
 strong, b, em, li::marker {
@@ -349,6 +362,8 @@ img {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
+
+
 
 hr {
 	height: 1px;
@@ -434,9 +449,10 @@ div.posts-summary {
 	max-width: 450px;
 }
 
+
+
 .posts-img {
-	width: 200px;
-	height: 150px;
+	width: 225px;
 }
 
 
@@ -450,6 +466,28 @@ div.posts-summary {
 	flex-direction: row;
 	justify-content:space-around;
 }
+
+.collapsible {
+	
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	
+  }
+  
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	
+  }
+
+
 
 @media screen and (max-width: 775px) {
 	
@@ -469,7 +507,7 @@ div.posts-summary {
     	margin-left: 5px;
 	}
 	
-	li > time, logo, .posts-img {
+	li > time, .posts-img {
 		display: none;
 	}
 
@@ -477,7 +515,7 @@ div.posts-summary {
 
 	h1 {Font-Size: 6vmin;}
 	h2,p, a, body, li, em, strong, code, pre, pre > code, em, blockquote > p, ul > p, code.highlighter-rouge {Font-Size: 2.5vmax;}
-	h3 {Font-Size: 4px;}
+	h3 {Font-Size: 24px;}
 	h4 {Font-Size: 16px;}
 	h5 {Font-Size: 12px;}
 	time, .post > time {

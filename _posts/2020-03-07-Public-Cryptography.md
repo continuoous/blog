@@ -1,10 +1,9 @@
 ---
 layout: post
 title: RSA Algorithm
-description: Keeping secrets is fundamental for democracies.
+description: Keeping secrets is fundamental for democracies
 summary: Our world would be very different if tech giants and banks couldn't guard passwords. RSA is the workhorse algorithm of this secret keeping. Lets explore how it works.
-tags: [Math, Tech]
-category: [MSExcel]
+tags: [Tech]
 img: https://source.unsplash.com/EPeK7w5Eeic/200x150/
 ---
 

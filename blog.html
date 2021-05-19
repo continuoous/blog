@@ -2,12 +2,18 @@
 layout: default
 ---
 
+<p>
+Thank you for stopping by at this obscure corner of the world wide web unencumbered by likes, follows, ads and comments.
+<br></br>
+If you've gotten here on your own, you probably are a surfer gone off the beaten track into remote, hard to reach, ip addresses. I hope you’ll enjoy the solitude amidst a handful of half-formed thoughts sprinkled around this white space.
+</p>
+<br></br>
 <section class="posts">
 
     {% for post in site.posts %}
 <li>
     
-    <div class="posts-summary">
+<div class="posts-summary">
         
         <h5 href="{{ site.baseurl }}{{ post.url }}">{{ post.tags }}</h5>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <br>
@@ -15,6 +21,7 @@ layout: default
         <p href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</p>
         
 </div>
+
 <div class="posts-img">
     <img src="{{ post.img | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
 </li>

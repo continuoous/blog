@@ -2,15 +2,31 @@
 layout: default
 ---
 
-<section id="intro">
-
-<p>Thank you for stopping by!</p>
-
-<p>Continuoous is an obscure corner of the world wide web unencumbered by likes, follows, ads and comments.
-<p>I created this space to escape the everyday hustle of work & life.</p>
-<p>If you've gotten here on your own, you probably are a surfer gone off the beaten track into remote, hard to reach, ip addresses.
-I hope you’ll enjoy the solitude amidst a handful of half-formed thoughts sprinkled around this white space.</p>
-
+<h4 style="text-align:justify">
+    Thank you for stopping by at this obscure corner of the world wide web unencumbered by likes, follows, ads and comments.
+    If you've gotten here on your own, you probably are a surfer gone off the beaten track into remote, hard to reach, ip addresses. 
+    I hope you’ll enjoy the solitude amidst a handful of half-formed thoughts sprinkled around this white space. Here's more <a href="{{site.url}}/About/"> 'bout </a> me.
+</h4>
 <br>
-
-<img src="https://source.unsplash.com/WScpndZFrOM/800x450">
+    
+    <section class="posts">
+    
+        {% for post in site.posts %}
+    <li>
+        
+    <div class="posts-summary">
+            
+            <h5 href="{{ site.baseurl }}{{ post.url }}">{{ post.tags }}</h5>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <br>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
+            <p href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</p>
+            
+    </div>
+    
+    <div class="posts-img">
+        <img src="{{ post.img | prepend: site.baseurl }}" alt="{{ post.title }}" title="{{ post.title }}">
+    </li>
+    
+        {% endfor %}
+    
+    </section>

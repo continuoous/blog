@@ -1,19 +1,39 @@
 ---
 layout: post
-title: Traffic Post
-description: The agony of pedestrians confronted by ridiculous stop signals
-summary: The agony of pedestrians confronted by ridiculous stop signals
-tags: [Rumination]
+title: A Blank Mind
+description: Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty
+summary: Ruminations about a jaded internet age mind exposed to endless stimuli. Its unable to appreciate the everyday joys - trivial and otherwise.
+tags: [Life]
+img: https://source.unsplash.com/nXo2ZsKHTHg/200x150/
 ---
+![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/800x450/ "Source: unsplash.com/@sashafreemind")
 
-The agony of pedestrians in Poland when confronted by ridiculous stop signals demanding them not to cross the narrow, empty as ghost town, streets is a sight to behold – A sight simultaneously evidencing the tragedy and comedy of human condition.
+# Table of contents
+* [Introduction](#introduction)
+* [Some paragraph](#paragraph1)
+    * [Sub paragraph](#subparagraph1)
+* [Another paragraph](#paragraph2)
 
-A light bulb on top of a pole dictates human brain to abandon its mental faculties. It plunges human soul into the trauma of surrendering freedom to exercise common sense. During this unbelievable sixty second confrontation, more often than not, the bulb wins the battle! What a tragedy. However, as with everything else in life, tragic situations feed amusing moments to its observers.
+**This is the introduction** <a name="introduction"></a>
 
-Upon sighting the red light, few pedestrians perform a rather peculiar ritual at the cliff of footpath – this dance involves folding hands behind the back and repeatedly sticking one foot behind the other as if it is used to restraint the other.
+A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
 
-Others do the unbelievable thing – they look at their wrist watch as if to suggest that they are late and someone is stopping them from moving feet.
+Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.
 
-There are of course few brave souls. These few divine the absurdity of the situation and walk along. However, there are three categories within this bunch of champions. First, those who cross gingerly as if to suggest a sincere apology to all spectators – an apology for disrespecting the sanctity of traffic signal. Second, those who sprint to cross as if to warn fellow pedestrians about the occasional jet fighter planes which touches down on the street. The third, those who look into the eyes of each fellow pedestrian like Napoleon looked into his soldiers’ eyes urging them to banish fear and fight the battle for glory.
+<a name="paragraph1"></a>
+..
+**Some paragraph** 
 
-Yes, tragic yet an amusing human condition.
+A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
+
+Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.
+
+### Sub paragraph <a name="subparagraph1"></a>
+A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
+
+Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.
+
+## Another paragraph <a name="paragraph2"></a>
+A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
+
+Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.

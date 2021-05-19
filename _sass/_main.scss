@@ -180,7 +180,7 @@ html{
 li::marker {color: var(--marker-color);}
 ul>li::marker {color: var(--medium-text-color);}
 
-.flex-row-between > a, logo, .posts-summary > a   {
+.flex-row-between > a, logo, .posts-summary > a, h4 > a   {
 	font-size: 18px;
 	font-family: var(--main-font);
 	color:var(--marker-color);
@@ -227,7 +227,7 @@ h1, a, b, body, em, h2, h3, h4, h5, li, li > p, p, strong, .post > time, time {
 	font-family: var(--main-font);
 }
 
-h1>span{background-color: #ffd300; font-style:normal;}
+h1>span{background-color: #FFE565; font-style:normal;}
 
  .projects li time, pre, code {
 	font-family: var(--alt-font);
@@ -257,7 +257,7 @@ li, li > p {margin-bottom: 0px;}
  /* font-size */
 
 h1 {Font-Size: 40px;}
-h2,p, body, li, a, code, pre, em {Font-Size: 24px;}
+h2, p, body, li, a, code, pre, em, blockquote > em {Font-Size: 24px;}
 h3 {Font-Size: 20px;}
 h4 {Font-Size: 16px;}
 h5 {Font-Size: 12px;}
@@ -266,7 +266,7 @@ time, .post > time {Font-Size: 14px;}
 
 /* font-weight */
 
-h2, h3, h4, h5, li::marker {
+h2, h3, h5, li::marker {
 	Font-weight: 900;
 }
 
@@ -274,7 +274,7 @@ h1, logo, strong, code, a, b, time, .post > time {
 	Font-weight: 700;
 }
 
-body, header a.active,  em, p, blockquote > p {
+body, header a.active,  em, p, blockquote > p, h4 {
 	Font-weight: 400;
 }
 
@@ -287,7 +287,7 @@ body, header a.active,  em, p, blockquote > p {
 
 h1{color:black;}
 
-logo, body, h2, h3, h4, h5, hr, .collapsible>h3 {
+body, h2, h3, h4, h5, hr, .collapsible>h3 {
 	color: var(--main-text-color);
 }
 
@@ -303,10 +303,10 @@ a  {
 	color: var(--link-color);
 }
 
-li > a {color: var(--marker-color);}
+li > a, logo {color: var(--marker-color);}
 
 a:hover, logo:hover {
-	background-color: #ffd300;
+	background-color: #FFE565;
 	color:black;
   }
 
@@ -327,13 +327,13 @@ strong, b, em, li::marker {
 /* line-height and margins */
 
 h1, h2, h3, h4, h5, .post > h1.title {
-	line-height: 1.23;
+	line-height: 1.4211em;
 	margin-bottom: 0;
 	margin-top: 1;
 }
 
 body, .meta, .post > time {
-	line-height: 1.5;
+	line-height: 1.5em;
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }

@@ -1,21 +1,13 @@
 ---
 layout: post
-title: Discount Rates
-description: Whether our species makes it to the next 200 years might depend on discount rates
-summary: About why discount rates are a moral dillemma in thinking about climate change
-tags: [Science, Math]
+title: A Blank Mind
+description: Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty
+summary: Ruminations about a jaded internet age mind exposed to endless stimuli. Its unable to appreciate the everyday joys - trivial and otherwise.
+tags: [Life]
+img: https://source.unsplash.com/nXo2ZsKHTHg/200x150/
 ---
+![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/800x450/ "Source: unsplash.com/@sashafreemind")
 
-![Unsplash](https://source.unsplash.com/XFneC_rHR48/800x450/ "Source: unsplash.com/@brianericksonco")
+A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
 
-We suffer chronically from time inconsistent behaviour.
-
-## What is Discount Rate?
-
-![Unsplash](https://source.unsplash.com/Wpnoqo2plFA/800x450/ "Source: unsplash.com/@mbaumi")
-
-Right at the outset, if you want to, with your own bare hands – code a machine learning solution and scale it up for use by 
-
-1. We have a time inconsistency bias
-2. discount rates concept
-3. 
+Nobody that you want to impress, no place you want to visit, no food that you crave, no story that you want to hear, no gossip that excites you, no cause that enrages you, no book that you want to read, no gift that you yearn, no dance that you want to learn. Just a blank mind.

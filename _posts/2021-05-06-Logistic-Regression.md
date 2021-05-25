@@ -2,8 +2,8 @@
 layout: post
 title: Logistic Regression
 description: Quickest implementation of Logistic Regression in MS Excel
-summary: Logistic regression isn't a native functionality in Excel. Its implementation is rather quick with Excel's Solver capability.
-tags: [Machine Learning, Excel]
+summary: Logistic regression isn't a native functionality in Excel. However, its implementation is rather quick with Excel's Solver capability.
+tags: [Excel]
 img: https://source.unsplash.com/K1NObYzL86k/200x150/
 ---
 

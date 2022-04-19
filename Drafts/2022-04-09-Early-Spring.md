@@ -4,7 +4,7 @@ title: An Early Spring afternoon
 description: About an afternoon out in sun
 summary: About an afternoon out in sun
 tags: [Life]
-img: https://unsplash.com/photos/zlTH0XwLCsk
+img: https://source.unsplash.com/zlTH0XwLCsk
 ---
 <br>
 Thing about early spring sun is that he's gentler compared to his summer sibling. Case in point - Today is early spring and I didn't run for cover under shade. As I sat on my porch, I stared straight at him with eyes closed and received his warm red glow.
@@ -15,7 +15,7 @@ I lost myself for a few minutes – taking in the warmth, listening to festiviti
 
 Few minutes later, which felt like pleasant few hours, my eyes opened to what appeared to be an alien world awash in tinted blue. Gradually, this world returned to familiarity as my red cone cells begun firing again.
 
-![Unsplash](https://unsplash.com/photos/zlTH0XwLCsk "Source: unsplash.com/@fab_fotos")
+![Unsplash](https://source.unsplash.com/zlTH0XwLCsk "Source: unsplash.com/@fab_fotos")
 
 What is the meaning of these fleeting moments? I wondered, as we all do, if life had accrued meaning in these few minutes or if I squandered away precious time doing nothing, contemplating nothing – achieving nothing.
 

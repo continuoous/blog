@@ -27,6 +27,6 @@ Not far from where I live, evil ambition has driven millions away from their por
 
 Life felt, at once, fortuitous and cruel. These fleeting moments, when paid close attention to, unearth joyous treasure troves. But, those are unearthed with cruel indifference to suffering within close proximity of those joys.
 
-So - again, what is the meaning of these fleeting moments? It's freedom. Freedom is no trivial joy for it isn’t nearly universal as it should be. 
+So - again, what is the meaning of these fleeting moments? It's freedom and it isn't trivial because its not nearly as universal as it should be. 
 
 I wished all humans an afternoon nap on their porch under a gentle early spring sun unaccompanied by any worries for few precious moments.

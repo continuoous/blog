@@ -15,7 +15,7 @@ I lost myself for a few minutes – taking in the warmth, listening to festiviti
 
 Few minutes later, which felt like pleasant few hours, my eyes opened to what appeared to be an alien world awash in tinted blue. Gradually, this world returned to familiarity as my red cone cells begun firing again.
 
-![Unsplash](https://images.unsplash.com/photo-1640227559512-3647dce1236a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=450&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY1MDM3NTk0OQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800 "Source: unsplash.com/@fab_fotos")
+![Unsplash](https://source.unsplash.com/zlTH0XwLCsk/800x450 "Source: unsplash.com/@fab_fotos")
 
 What is the meaning of these fleeting moments? I wondered, as we all do, if life had accrued meaning in these few minutes or if I squandered away precious time doing nothing, contemplating nothing – achieving nothing.
 

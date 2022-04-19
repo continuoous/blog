@@ -2,7 +2,7 @@
 layout: post
 title: An Early Spring afternoon
 description: About an afternoon out in sun
-summary: About an afternoon out in sun
+summary: Life feels, at once, fortuitous and cruel. Fleeting moments, when paid close attention to, unearth joyous treasure troves. But, those are unearthed with cruel indifference to suffering in close proximity of those joys.
 tags: [Life]
 img: https://source.unsplash.com/zlTH0XwLCsk
 ---

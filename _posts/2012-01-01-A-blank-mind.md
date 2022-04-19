@@ -4,9 +4,9 @@ title: A Blank Mind
 description: Conscience is bankrupt if it isn’t clean, a mind equally so if it isn’t dirty
 summary: Ruminations about a jaded internet age mind exposed to endless stimuli. Its unable to appreciate the everyday joys - trivial and otherwise.
 tags: [Life]
-img: https://source.unsplash.com/nXo2ZsKHTHg/200x150/
+img: https://source.unsplash.com/nXo2ZsKHTHg/
 ---
-![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/800x450/ "Source: unsplash.com/@sashafreemind")
+![Unsplash](https://source.unsplash.com/nXo2ZsKHTHg/ "Source: unsplash.com/@sashafreemind")
 
 A mind as blank as outer space. Nothing contemplated in it. Nothing that worries it; nothing that excites, seduces, moves or provokes it – as if it were divorced from emotions - Hedonist, Ascetic, all emotions.
 

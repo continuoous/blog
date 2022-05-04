@@ -4,7 +4,7 @@ title: Viral Ambitions
 description: The way talking happens is bonkers weird
 summary: Talking happens as if it were a game and it creates bubbles instead of knowledge. In such a world, it doesn't matter which billionaire buy which social networking company.
 tags: [Life]
-img: https://source.unsplash.com/N0g-deioHO4/200x150
+img: https://source.unsplash.com/9Qv774YDKbA/200x150
 ---
 <br>
 You may have heard about this billionaire who will, maybe soon, buy this huge social networking company for a boat load of money because, you know, free speech. And opinion writers are freaking out what all of this means to, guess what, free speech.
@@ -15,7 +15,7 @@ We can knock ourselves out all we want, but there’s no telling how this will a
 
 Imagine you are in an enviable marriage. You love your spouse for the care, support, travels, fist fights or whatever it is that makes your marriage tick. Ten years have passed and you've shared you joys, sorrows, fears, guilt, successes and insecurities. You both have truly become soul mates. What do you think is a weird thing to do when you wake up on your tenth anniversay morning? It is to tell your spouse "darling, I'm so lucky I spent these ten wonderful years with you. Thank you so much my love. You make my life meaningful, wonderful. Etc. etc." … on Facebook. While your spouse is still in a deep slumber. Right next to you. And wait for those likes to roll in.
 
-![Unsplash](https://source.unsplash.com/9Qv774YDKbA/800x450 "Source: unsplash.com/@markusspiske")
+![Unsplash](https://source.unsplash.com/N0g-deioHO4/800x450 "Source: unsplash.com/@markusspiske")
 
 And this isn't uncommon. So much so, you are probably thinking "Wait, nothing wrong professing love online - the world needs to know how much I love my partner" or worse, you are thinking "wait, who is this clown telling me I shouldn't have posted the thing that I did on our anniversary".
 
@@ -35,7 +35,7 @@ It's hard to tell because there's no record of why somebody likes a post. There 
 
 Admittedly, it's not important here. But, if you like a post about a mad shooting incident, it's useful to know if you liked that there were no victims or that the shooter was killed in an ensuing gruesome shootout or that the person who posted this is hiring right now or you liked because you think your contacts are likely to post many comments. 
 
-It's important because, the lack of why, the context, is how we create - and pay close attention because I'm introducing an important and useful technical term here - information bubbles.
+It's important because, the lack of why, the context, is how we create - and pay close attention because I'm introducing an important technical term here - **information bubbles**.
 
 ![Unsplash](https://source.unsplash.com/8hgmG03spF4/800x450 "Source: unsplash.com/@thisisengineering")
 
@@ -49,7 +49,7 @@ I can think of one scenario. Posting a wish and not getting likes. I'll take the
 
 I'd believe someone who says "I couldn't care less about whether people like my posts" if they also posted other things "on their mind" which just so happen to be unlikable. E.g. a post about how they wish something terrible happened to their spouse's annoying parent or why they think their partner doesn't nearly deserve that bonus as much as they do. Until I see such posts, which as you can imagine - I have not, I'll justifiably hold on to my belief that people don't post things "on their mind" with disregard for whether it is liked.
 
-Meanwhile, let's not lose sight of a deeper question here. True as that supposed axiom might be, the more important question is why is it true. Why does it matter to us how many people punch that like icon. Its because our conversations are, and here's another important and useful technical term for you - Gamified.
+Meanwhile, let's not lose sight of a deeper question here. True as that supposed axiom might be, the more important question is why is it true. Why does it matter to us how many people punch that like icon. Its because our conversations are, and here's another useful technical term - **gamified**.
 
 ![Unsplash](https://source.unsplash.com/gGoi4QTXXBA/800x450 "Source: unsplash.com/@epicantus")
 
@@ -90,10 +90,10 @@ The point being, social networks are an awfully inefficient way to improve knowl
 
 ![Unsplash](https://source.unsplash.com/QozzJpFZ2lg/800x450 "Source: unsplash.com/@markusspiske")
 
-Well, fake signaling devices. All you need to enhance your climate concern profile is to "share" ten articles about the future of geothermal power and "like" ten other articles about how crypto servers burn more fuel than Denmark.
+Well, fake **signaling** devices. All you need to enhance your climate concern profile is to "share" a handful articles about the future of geothermal power and "like" handful other articles about how crypto servers burn more fuel than Denmark.
 
-What else? There's entertainment of course. We infinitely scroll through "knowledge" to fuel that dopamine high in anticipation of discovering an article as enlightening as the one we scrolled upon three years back. Learning followed by learning followed by more learning is, let's be frank, entertainment.
+What else? There's **entertainment** of course. We infinitely scroll through "knowledge" to fuel that dopamine high in anticipation of discovering an article as enlightening as the one we scrolled upon three years back. Learning followed by learning followed by more learning is, let's be frank, entertainment.
 
 It's bonkers weird that our conversations in groups are anything but exchange of ideas and thoughts. They are voyeur expeditions about who's mindlessly liking what and what's receiving attention rather than about what I want to or need to learn.
 
-And that, ladies and gentlement, is why I'm not bothered that a billionaire will, maybe soon, buy this huge social networking company for a boat load of money because, you know, free speech. Because when it comes to speech, forget about "free". We've got bigger problems. How we talk is outright bonkers weird.
+And that, ladies and gentlement, is why I'm not bothered that a billionaire will, maybe soon, buy this huge social networking company for a boat load of money. Because when it comes to speech, forget about "free". We've got bigger problems. How we talk is outright bonkers weird.

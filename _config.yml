@@ -15,7 +15,7 @@ author:
   url: #yoururl
 permalink: pretty
 
-baseurl: ""
+baseurl: "https://continuoous.github.io/blog/"
 
 highlighter: rouge
 

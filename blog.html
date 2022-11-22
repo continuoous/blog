@@ -8,19 +8,19 @@ Thank you for stopping by at this obscure corner of the world wide web unencumbe
 If you've gotten here on your own, you probably are a surfer gone off the beaten track into remote, hard to reach, ip addresses. I hope you’ll enjoy the solitude amidst a handful of half-formed thoughts sprinkled around this white space.
 </p>
 <br></br>
+
 <section class="posts">
 
     {% for post in site.posts %}
 <li>
     
-<div class="posts-summary">
+
         
         <h5 href="{{ site.baseurl }}{{ post.url }}">{{ post.tags }}</h5>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <br>
         <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
         <p href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</p>
         
-</div>
 
 
 </li>

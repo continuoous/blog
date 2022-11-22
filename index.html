@@ -14,14 +14,13 @@ layout: default
         {% for post in site.posts %}
     <li>
         
-    <div class="posts-summary">
-            
+
             <h5 href="{{ site.baseurl }}{{ post.url }}">{{ post.tags }}</h5>
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <br>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%y" }}</time>
             <p href="{{ site.baseurl }}{{ post.url }}">{{ post.summary }}</p>
             
-    </div>
+
     
 
     </li>

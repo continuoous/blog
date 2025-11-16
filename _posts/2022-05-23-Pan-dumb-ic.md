@@ -18,8 +18,6 @@ The point is also not how unlikely it is that an A-lister will, anytime in near 
  
 And, with CGI getting better and cheaper - there's no reason an A-lister will play second fiddle to a rock (Note: *a* rock not *The* Rock). 
 
-![Unsplash](https://source.unsplash.com/1-Mq2LbM1NQ/800x450 "Source: unsplash.com/@chrishenryphoto")
-
 **Don’t look up a Christmas miracle**
  
 That said, we witnessed something of a Christmas miracle in 2021 with a disaster movie starring not one but, if my count is right, five academy awards winning actors - "Don't look up" (2021).
@@ -31,8 +29,6 @@ For a disaster movie, you might imagine, as I did, an edge of seat thriller abou
 Admittedly, not much at stake in a silly fiction. Notwithstanding the fact that a 10-mile radius object will, depending on it’s make and model,  do just fine killing us all - I find this scenario uninteresting because whether we survive a comet hardly depends on you and I. 
 
 If we don't survive, tough luck. If we do, I’ll be overwhelmed by gratitude for living at the same time as geniuses who can destroy comets. You might feel the same way or feel an urge to post YouTube videos titled "We never should’ve have blown up that comet because now we’ll never know if it was real or wait, did we actually blow it up or was it… hmm".
-
-![Unsplash](https://source.unsplash.com/IY_6_WfTdTs/800x450 "Source: unsplash.com/@theblowup")
  
 **A fun, not at all anxiety inducing, thought experiment**
  
@@ -47,8 +43,6 @@ If you feel a strong urge, as some might, to react with "Nah, I don't buy it. Th
 Truly admire you sticking with me because according to research only 1 in 300 people make it this far. But I suspect, whatever follows is not going to resonate all that well for you.
  
 For the rest, a quick disclaimer: Look, not that it matters, but I'm not an epidemiologist, virologist, or whichever x-gist is an authority on pandemic related topics. So, take everything written here with like a barrel of salt. As I'm sure you will.
-
-![Unsplash](https://source.unsplash.com/MxfcoxycH_Y/800x450 "Source: unsplash.com/@mdisc")
  
 **Bad behaviour in a pandemic**
  
@@ -57,8 +51,6 @@ Unless you've been living inside a cave under a mountain in an ocean on a planet
 Measles' R-naught is ten. Meaning every infected person infects ten others. Ebola's mortality can be ninety percent. Meaning nine out of ten Ebola patients can die. A virus as infectious as measles and as dangerous as Ebola is what we are talking about. Cant Measles like virus mutate into Ebola like virus? I hope not. But hoping not doesn’t make it science fiction.
  
 I don't know how likely such a pandemic might come to pass and that's fine because the question isn't if such pandemic will emerge, it is why we won't survive if it emerges?
-
-![Unsplash](https://source.unsplash.com/t2b2svMf8ek/800x450 "Source: unsplash.com/@wacalke")
  
 **Fight and Flight**
  
@@ -67,8 +59,6 @@ It may not come as a surprise to ardent evolutionary theory fans that after mill
 Whether we survive a deadlier pandemic can be forbade, I think, depending on whether our bad behaviour this time around was surprising, meaning – there’s a chance we’ll behave better, or entirely expected all along, meaning – well, extinction.
 
 I want to make a case that in hindsight, our behaviour was not a surprise in the slightest because listen, our **institutional trust** issues is as deep as our need to be smart asses about everything.
-
-![Unsplash](https://source.unsplash.com/v5QzguYO6Ac/800x450 "Source: unsplash.com/@helloimnik")
  
 **Mild trust issues**
  
@@ -102,8 +92,6 @@ Now admittedly, this is a hypothetical situation and you the reader would never 
 And what can save us from “you are dead” or “we are all dead” scenarios is resolving Institutional trust issues man. It's how we’ll survive a deadly pandemic. And that’s why institutional trust issues matter to surviving pandemics.
  
 That said, Let's move on to the next question which naturally follows - “will we trust institutions - Ever?”. Why is our trust in institutions so irreparably damaged in the first place? It sounds complicated, but it's not. 
-
-![Unsplash](https://source.unsplash.com/Mwuod2cm8g4/800x450 "Source: unsplash.com/@iammrcup")
 
 **Here’s a 12 point history lesson for how we got here.**
 

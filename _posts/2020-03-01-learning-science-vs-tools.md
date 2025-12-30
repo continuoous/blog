@@ -4,10 +4,9 @@ title: Learning science vs tools
 description: Learning data science with spreadsheets – when might it make sense?
 summary: Spreadsheets are an excellent learning canvas to get under the hood and to build intuition for data science algorithms because Excel is a familiar and a visual analytics tool.
 tags: [Excel]
-img: https://source.unsplash.com/4hbJ-eymZ1o/200x150/
----
 
-![Unsplash](https://source.unsplash.com/4hbJ-eymZ1o/800x450/ "Source: unsplash.com/@florianolv")
+---
+<BR>
 
 > Algorithms now decide our credit score, which patients receive medical care, and which families get access to stable housing. This hidden web of automated systems can trap people in poverty.
 — MIT Technology Review

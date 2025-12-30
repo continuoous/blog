@@ -5,9 +5,8 @@ description: No genre is as schizophrenic in its portrayal of male protagonists 
 summary:   It’s fascinating to watch Indian movies dish out super heroes who, ever so consistently, wet their pants if a woman so much as winks in their general direction.
 tags: [Life]
 ---
-<br>
-It’s fascinating to watch Indian movies dish out superheroes who, ever so consistently, wet their pants if a woman so much as winks in their general direction. It’s the hero who can take on Darth Vader, Anton Chigurh and Godzilla – all at once, but won’t find courage to send his lady love an email.
 
+It’s fascinating to watch Indian movies dish out superheroes who, ever so consistently, wet their pants if a woman so much as winks in their general direction. It’s the hero who can take on Darth Vader, Anton Chigurh and Godzilla – all at once, but won’t find courage to send his lady love an email.
 
 As implausible as these characters are, their popularity is undeniable. And it’s no surprise. They do, unfortunately and accurately, portray an average Indian middle aged teenager’s medieval fantasy – of scoring a woman, ridiculously beyond league, with little effort, no courting and above all, needing little to no intelligence; about truly getting lucky.
 

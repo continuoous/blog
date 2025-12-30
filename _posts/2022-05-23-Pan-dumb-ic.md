@@ -4,7 +4,6 @@ title: Pan-dumb-ic
 description: Nothing about what transpired in the pandemic should surprise us
 summary: Our reaction to a life-threatening pandemic was fight or flight. In fact, we did one up with fight AND flight in that we fought all public healthcare measures and then took flight to crowded bars, resorts, and concerts. Turned out, it was a questionable reaction.
 tags: [Life]
-img: https://source.unsplash.com/9Qv774YDKbA/200x150
 ---
 <br>
 

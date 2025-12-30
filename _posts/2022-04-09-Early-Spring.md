@@ -4,7 +4,7 @@ title: An Early Spring afternoon
 description: About an early spring afternoon
 summary: Life feels, at once, fortuitous and cruel. Fleeting moments, when paid close attention to, unearth joyous treasure troves. But, those are unearthed with cruel indifference to suffering in close proximity of those joys.
 tags: [Life]
-img: https://source.unsplash.com/zlTH0XwLCsk/200x150
+
 ---
 <br>
 Thing about early spring sun is that he's gentler compared to his summer sibling. Case in point - Today is early spring and I didn't run for cover under shade. As I sat on my porch, I stared straight at him with eyes closed and received his warm red glow.
@@ -14,8 +14,6 @@ I suspect it wasn't just me. Birds were in an especially festive mood today. I t
 I lost myself for a few minutes – taking in the warmth, listening to festivities, feeling the continuous rumble – not a worry in my mind.
 
 Few minutes later, which felt like pleasant few hours, my eyes opened to what appeared to be an alien world awash in tinted blue. Gradually, this world returned to familiarity as my red cone cells begun firing again.
-
-![Unsplash](https://source.unsplash.com/zlTH0XwLCsk/800x450 "Source: unsplash.com/@ray12119")
 
 What is the meaning of these fleeting moments? I wondered, as we all do, if life had accrued meaning in these few minutes or if I squandered away precious time doing nothing, contemplating nothing – achieving nothing.
 

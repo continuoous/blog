@@ -6,6 +6,7 @@ summary: Logistic regression isn't a native functionality in Excel. However, its
 tags: [Excel]
 ---
 
+
 1. Many free online resources<sup>1</sup> explain Logistic regression far better than I ever could in a single post. At the outset, I'll assume you are *very* familiar with Logistic regression.
 
 2. I love that Logistic regression can be implemented so simply in a Spreadsheet. My intent is to post about, what in my opinion is, the quickest implementation of Logistic regression in MS Excel with this [Exercise](http://openclassroom.stanford.edu/MainFolder/DocumentPage.php?course=DeepLearning&doc=exercises/ex4/ex4.html) published by Stanford. 

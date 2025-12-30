@@ -8,6 +8,7 @@ tags: [Life]
 <br>
 It’s fascinating to watch Indian movies dish out superheroes who, ever so consistently, wet their pants if a woman so much as winks in their general direction. It’s the hero who can take on Darth Vader, Anton Chigurh and Godzilla – all at once, but won’t find courage to send his lady love an email.
 
+
 As implausible as these characters are, their popularity is undeniable. And it’s no surprise. They do, unfortunately and accurately, portray an average Indian middle aged teenager’s medieval fantasy – of scoring a woman, ridiculously beyond league, with little effort, no courting and above all, needing little to no intelligence; about truly getting lucky.
 
 As if the resulting portrayal of women in such movies isn’t shamefully regressive enough, what is also mind numbing is that Indian cinema consistently portrays these men, impotent in courting women, as characters worthy of emulation.

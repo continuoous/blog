@@ -12,7 +12,7 @@ tags: [Excel]
 
 3. **Input**: The dataset represents scores of Exam1 (x₁) and Exam2 (x₂) of 40 students admitted (y = 1) to college and 40 students who were not admitted (y = 0).
 
-4. You can download the [dataset](https://raw.githubusercontent.com/continuoous/Spreadsheets/main/Logistic_regression.txt) or the entire [excel file](https://github.com/continuoous/Spreadsheets/blob/main/Logistic_Regression_OneStep.xlsx?raw=true) to follow along. ![SSolution](http://openclassroom.stanford.edu/MainFolder/courses/MachineLearning/exercises/ex4materials/ex4regression.png)
+4. You can download the [dataset](https://raw.githubusercontent.com/continuoous/Spreadsheets/main/Logistic_regression.txt) or the entire [excel file](https://github.com/continuoous/Spreadsheets/blob/main/Logistic_Regression_OneStep.xlsx?raw=true) to follow along.
 
 5. **Insert x₀**: To begin. Copy input data (x₁, x₂ and y) to excel and then insert a column x₀ before x₁ in which all rows equal 1.
   

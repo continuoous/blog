@@ -4,7 +4,6 @@ title: Viral Ambitions
 description: The way talking happens is bonkers weird
 summary: Talking happens as if it were a game and it creates bubbles instead of knowledge. In such a world, it doesn't matter which billionaire buy which social networking company.
 tags: [Life]
-img: https://source.unsplash.com/9Qv774YDKbA/200x150
 ---
 <br>
 You may have heard about this billionaire who will, maybe soon, buy this huge social networking company for a boat load of money because, you know, free speech. And opinion writers are freaking out what all of this means to, guess what, free speech.
@@ -14,8 +13,6 @@ I don't know. Maybe we'll end up with an edit and a dislike button. Maybe this s
 We can knock ourselves out all we want, but there’s no telling how this will all pan out. I frankly don't care. But, it got me thinking about how we talk to each other and it's outright bonkers weird. Lets talk about that.
 
 Imagine you are in an enviable marriage. You love your spouse for the care, support, travels, fist fights or whatever it is that makes your marriage tick. Ten years have passed and you've shared you joys, sorrows, fears, guilt, successes and insecurities. You both have truly become soul mates. What do you think is a weird thing to do when you wake up on your tenth anniversay morning? It is to tell your spouse "darling, I'm so lucky I spent these ten wonderful years with you. Thank you so much my love. You make my life meaningful, wonderful. Etc. etc." … on Facebook. While your spouse is still in a deep slumber. Right next to you. And wait for those likes to roll in.
-
-![Unsplash](https://source.unsplash.com/N0g-deioHO4/800x450 "Source: unsplash.com/@markusspiske")
 
 And this isn't uncommon. So much so, you are probably thinking "Wait, nothing wrong professing love online - the world needs to know how much I love my partner" or worse, you are thinking "wait, who is this clown telling me I shouldn't have posted the thing that I did on our anniversary".
 
@@ -37,7 +34,7 @@ Admittedly, it's not important here. But, if you like a post about a mad shootin
 
 It's important because, the lack of why, the context, is how we create - and pay close attention because I'm introducing an important technical term here - **information bubbles**.
 
-![Unsplash](https://source.unsplash.com/8hgmG03spF4/800x450 "Source: unsplash.com/@thisisengineering")
+
 
 This is bonkers weird. The whole point of conversations is to exchange thoughts, understand and be understood. Yet, in online conversations, we end up in hearing tunnels because, ironically, we don't care enough to think through, express or understand why we believe and why we say something, anything.
 
@@ -50,8 +47,6 @@ I can think of one scenario. Posting a wish and not getting likes. I'll take the
 I'd believe someone who says "I couldn't care less about whether people like my posts" if they also posted other things "on their mind" which just so happen to be unlikable. E.g. a post about how they wish something terrible happened to their spouse's annoying parent or why they think their partner doesn't nearly deserve that bonus as much as they do. Until I see such posts, which as you can imagine - I have not, I'll justifiably hold on to my belief that people don't post things "on their mind" with disregard for whether it is liked.
 
 Meanwhile, let's not lose sight of a deeper question here. True as that supposed axiom might be, the more important question is why is it true. Why does it matter to us how many people punch that like icon. Its because our conversations are, and here's another useful technical term - **gamified**.
-
-![Unsplash](https://source.unsplash.com/gGoi4QTXXBA/800x450 "Source: unsplash.com/@epicantus")
 
 Conversations aren't anymore about expressing thoughts and understanding and being understood. It sure as heck is NOT about building connections. It's about metrics. You can measure and compare your thought beginning with your hangover, breakfast, afternoon traffic, today's sunset, that politician you hate, the song you love, your best friends wedding anniversary or about that billionaire who's buying that social networking company.
 
@@ -87,8 +82,6 @@ Here's a handy ten step guide for how an entirely benevolent social network woul
 
 
 The point being, social networks are an awfully inefficient way to improve knowledge compared to good old search engine. Ironically, they are a colossal tool to disseminate information - but nearly useless as a learning aid. So, what's the allure of Reddit or EconTwit as bastions of knowledge? 
-
-![Unsplash](https://source.unsplash.com/QozzJpFZ2lg/800x450 "Source: unsplash.com/@markusspiske")
 
 Well, fake **signaling** devices. All you need to enhance your climate concern profile is to "share" a handful articles about the future of geothermal power and "like" handful other articles about how crypto servers burn more fuel than Denmark.
 
